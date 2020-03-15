@@ -1,0 +1,32 @@
+#------------------------------------------------------------------------------
+# Toolkit
+#------------------------------------------------------------------------------
+skin    global                  phosphor        chrome/global/
+skin    mozapps                 phosphor        chrome/mozapps/
+
+#------------------------------------------------------------------------------
+# Application
+#------------------------------------------------------------------------------
+skin    browser                 phosphor        chrome/browser/
+skin    messenger               phosphor        chrome/messenger/
+skin    messenger-newsblog      phosphor        chrome/messenger-newsblog/
+skin    editor                  phosphor        chrome/editor/
+skin    ambassador              phosphor        chrome/ambassador/
+skin    communicator            phosphor        chrome/communicator/
+
+#------------------------------------------------------------------------------
+# OS-specific skin
+#------------------------------------------------------------------------------
+# Fallback skin for unmatched systems
+skin    os_target               phosphor        chrome/os_target/windows/
+
+# Skin content overrides
+skin    os_target               phosphor        chrome/os_target/windows/     os=WINNT
+skin    os_target               phosphor        chrome/os_target/mac/         os=Darwin
+skin    os_target               phosphor        chrome/os_target/linux/       os=Linux
+
+#------------------------------------------------------------------------------
+# Overrides
+#------------------------------------------------------------------------------
+# Another loading icon (with the same dimensions, seemingly redundant) is referenced by some applications
+override    chrome://global/skin/icons/loading.png    chrome://global/skin/icons/loading_16.png

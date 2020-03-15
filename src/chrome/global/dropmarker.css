@@ -1,0 +1,33 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+dropmarker {
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  border: 1px solid lime;
+  background-color: #000;
+  padding: 1px;
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn.gif");
+  -moz-image-region: auto;
+}
+
+/*
+  XXX: Anonymous button content 'never' receives hover/active states
+  https://bugzilla.mozilla.org/show_bug.cgi?id=257280#c46
+  dropmarker:hover:active:not([disabled="true"])
+ */
+*[open="true"]:not([disabled="true"]) dropmarker {
+  border-color: #009600;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-inline-start: 2px;
+  padding-inline-end: 0px;
+}
+
+dropmarker[disabled="true"] {
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-dis.gif");
+}

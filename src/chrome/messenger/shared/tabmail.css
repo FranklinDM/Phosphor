@@ -1,0 +1,84 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+@import url("chrome://messenger/skin/sharedPlatform.css");
+
+#tabs-toolbar {
+  --tabHeight: 26px;
+  --tabSidePadding: 3px;
+}
+
+/* == Tab style ============================================= */
+/* Unselected tab */
+.tabmail-tab {
+  -moz-appearance: none;
+  -moz-box-align: stretch;
+  background-color: #000;
+  margin: 0 0 2px 0;
+  padding: 0;
+  border: 1px solid;
+  border-bottom-style: none;
+  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
+}
+
+/* Selected tab */
+.tabmail-tab[selected=true] {
+  background-color: #DDDDFF;
+}
+
+.tab-content {
+  padding-inline-start: var(--tabSidePadding);
+  padding-inline-end: var(--tabSidePadding);
+}
+
+.tab-throbber,
+.tab-icon-image {
+  height: 16px;
+  width: 16px;
+}
+
+.tab-throbber,
+.tab-icon-image {
+  margin-inline-end: 6px;
+}
+
+.tab-label {
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+}
+
+.tab-close-button {
+  margin-inline-start: 4px;
+  margin-inline-end: -2px;
+  padding: 0;
+}
+
+.tab-background {
+  min-height: var(--tabHeight);
+}
+
+.tabmail-tab:-moz-lwtheme {
+  color: inherit;
+}
+
+/* Tab Overflow */
+.tabmail-arrowscrollbox > .arrowscrollbox-overflow-start-indicator,
+.tabmail-arrowscrollbox > .arrowscrollbox-overflow-end-indicator {
+  display: none;
+}
+
+/* Content Tabs */
+.contentTabToolbox {
+  height: 0px;
+}
+
+.contentTabInstance[disablechrome] .contentTabToolbox {
+  display: none;
+}
+
+.contentTabToolbar {
+  height: 0px;
+  min-height: 0px;
+  padding: 0px;
+}

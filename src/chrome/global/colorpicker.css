@@ -1,0 +1,46 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* ===== colorpicker.css ================================================
+  == Styles used by the XUL colorpicker element.
+  ======================================================================= */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* ::::: colorpicker button ::::: */
+ 
+/* colorpicker button */
+
+colorpicker[type="button"] {
+  -moz-appearance: none;
+  width: 38px;
+  height: 24px;
+  padding: 3px;
+}
+
+.colorpicker-button-colorbox {
+  border: 1px solid #000000;
+}
+
+/* ::::: colorpicker tiles ::::: */
+
+.colorpickertile {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  border: 1px solid;
+  border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
+}
+
+.colorpickertile[selected="true"] {
+  border: 2px outset #C0C0C0;
+}
+
+.colorpickertile[hover="true"] {
+  border: 2px dotted #FFFFFF;
+}
+
+.cp-light[hover="true"] {
+  border: 2px dotted #909090;
+}

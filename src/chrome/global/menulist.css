@@ -1,0 +1,97 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* ===== menulist.css ===================================================
+  == Styles used by the XUL menulist element.
+  ======================================================================= */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+/* :::::::::: menulist :::::::::: */
+
+menulist {
+  -moz-appearance: none;
+  margin: 2px 4px;
+  border: 1px solid lime;
+  background-color: #000;
+  color: lime;
+  text-shadow: none;
+}
+
+.menulist-label-box {
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  margin: 1px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: inherit;
+}
+
+.menulist-icon[src] {
+  margin: 0px 2px 0px 2px;
+}
+
+.menulist-label {
+  margin-top: 0 !important;
+  margin-inline-end: 0 !important;
+  margin-bottom: 0 !important;
+  margin-inline-start: 1px !important;
+}
+
+.menulist-description {
+  font-style: italic;
+  color: #6A6A6A;
+  margin-inline-start: 1ex !important;
+}
+
+/* ..... dropmarker ..... */
+
+menulist[disabled="true"]:hover:active > .menulist-dropmarker {
+  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
+  padding: 1px;
+}
+
+menulist[open="true"] > .menulist-dropmarker {
+  border-color: #6A6A6A;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-inline-start: 2px;
+  padding-inline-end: 0px;
+}
+
+/* ..... focused state ..... */
+
+menulist:focus:not([open="true"]) > .menulist-label-box {
+  background-color: lime;
+  color: #000;
+}
+
+menulist:-moz-focusring:not([open="true"]) > .menulist-label-box {
+  border: 1px dotted ThreeDDarkShadow;
+}
+
+/* ..... disabled state ..... */
+
+menulist[disabled="true"] {
+  background-color: #000;
+  color: #6A6A6A;
+}
+
+/* ::::: editable menulists ::::: */
+
+.menulist-editable-box {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-inline-start: 2px;
+  padding-inline-end: 0px;
+}
+
+html|*.menulist-editable-input {
+  margin: 0px !important;
+  border: none !important;
+  padding: 0px !important;
+  background: inherit;
+  font: inherit;
+}

@@ -1,0 +1,43 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* ::::: scale ::::: */
+
+.scale-slider {
+  -moz-appearance: none;
+  background: url("chrome://global/skin/scale/scale-tray-horiz.gif") 0% 50% repeat-x;
+  margin: 2px 4px;
+  width: 100px;
+}
+
+.scale-slider[orient="vertical"] {
+  -moz-appearance: none;
+  background: url("chrome://global/skin/scale/scale-tray-vert.gif") 50% 0% repeat-y;
+  margin: 4px 2px;
+  width: auto;
+  height: 100px;
+}
+
+/* ::::: scale thumb ::::: */
+
+.scale-thumb {
+  -moz-appearance: none;
+  border: 1px solid;
+  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
+  background-color: #000;
+  min-width: 30px;
+  min-height: 15px;
+}
+
+.scale-thumb[orient="vertical"] {
+  -moz-appearance: none;
+  min-width: 15px;
+  min-height: 30px;
+}
+
+.scale-thumb[disabled="true"] {
+  border-color: #6A6A6A;
+}

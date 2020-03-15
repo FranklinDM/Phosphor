@@ -1,0 +1,46 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* ===== progressmeter.css ==============================================
+  == Styles used by the XUL progressmeter element.
+  ======================================================================= */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* ::::: progressmeter ::::: */
+
+progressmeter {
+  -moz-appearance: none;
+  margin: 2px 4px;
+  border: 1px solid lime;
+  min-width: 128px;
+  min-height: 13px;
+}
+
+.progress-bar {
+  -moz-appearance: none;
+  min-width: 0px;
+  background-color: lime;
+}
+
+progressmeter[mode="undetermined"] {
+  background-image: url("chrome://global/skin/progressmeter/indeterminate.gif");
+}
+
+.progress-bar[mode="undetermined"],
+.progress-remainder[mode="undetermined"] {
+  visibility: collapse;
+}
+
+/* ::::: statusbar progressmeter ::::: */
+
+.progressmeter-statusbar {
+  margin: 0;
+  border: 0px;
+  -moz-border-top-colors: #ECECEC #000;
+  -moz-border-right-colors: #6A6A6A #000;
+  -moz-border-bottom-colors: #6A6A6A #000;
+  -moz-border-left-colors: #ECECEC #000;
+  min-width: 96px;
+}

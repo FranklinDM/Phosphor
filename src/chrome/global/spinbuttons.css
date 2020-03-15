@@ -1,0 +1,62 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+spinbuttons {
+  -moz-appearance: none;
+  cursor: default;
+}
+
+.spinbuttons-button {
+  min-width: 13px;
+  min-height: 11px;
+  margin: 0 !important;
+  border: 1px solid lime;
+  background-color: #000;
+}
+
+.spinbuttons-button > .button-box {
+  border: 0;
+}
+
+.spinbuttons-button:hover:active {
+  border: 1px solid;
+  border-color: #6A6A6A;
+}
+
+.spinbuttons-button[disabled="true"] {
+  border: 1px solid;
+  border-color: #6A6A6A !important;
+}
+
+.spinbuttons-up {
+  -moz-appearance: none;
+  background-image: url("chrome://global/skin/arrow/arrow-up.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.spinbuttons-up:hover:not([disabled="true"]) {
+  background-image: url("chrome://global/skin/arrow/arrow-up-hov.gif");
+}
+
+.spinbuttons-up[disabled="true"] {
+  background-image: url("chrome://global/skin/arrow/arrow-up-dis.gif");
+}
+
+.spinbuttons-down {
+  -moz-appearance: none;
+  background-image: url("chrome://global/skin/arrow/arrow-dn.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.spinbuttons-down:hover:not([disabled="true"]) {
+  background-image: url("chrome://global/skin/arrow/arrow-dn-hov.gif");
+}
+
+.spinbuttons-down[disabled="true"] {
+  background-image: url("chrome://global/skin/arrow/arrow-dn-dis.gif");
+}
