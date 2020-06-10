@@ -22,7 +22,7 @@
   --toolbarbutton-large-image: url("chrome://browser/skin/Toolbar-large.png");
   --toolbarbutton-large-inverted-image: url("chrome://browser/skin/Toolbar-large.png");
 
-  --tab-selected-color: rgba(0, 255, 0, 0.5);
+  --tab-selected-color: rgba(0, 255, 0, 0.3);
   --tab-border-radius: 0px;
   --tab-min-height: 28px;
 
@@ -67,7 +67,7 @@
 }
 
 #main-window[sizemode="maximized"] #navigator-toolbox[tabsontop="true"] #toolbar-menubar:not([autohide="true"]) {
-  border-top: 1px solid #9999CC;
+  border-top: 1px solid lime;
 }
 
 @media not all and (-moz-windows-compositor) {
@@ -1398,6 +1398,7 @@ richlistitem[type~="action"][actiontype$="tab"][selected="true"] > .ac-url-box >
 
 .tabbrowser-tab[selected="true"] {
   background-color: var(--tab-selected-color);
+  font-weight: bold;
 }
 
 /* Tab style: pinned tabs */
@@ -2115,9 +2116,9 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 .KUI-panel,
 #ctrlTab-panel,
 #allTabs-panel {
-  border: 1px solid #9999CC;
+  border: 1px solid lime;
   background: var(--toolbar-custom-color);
-  color: #CCCCFF;
+  color: lime;
   font-size: 1.2em;
 }
 

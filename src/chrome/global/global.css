@@ -192,8 +192,8 @@ separator.thin[orient="vertical"] {
 }
 
 separator.groove:not([orient="vertical"]) {
-  border-top: 1px solid #6A6A6A;
-  border-bottom: 1px solid #ECECEC;
+  border-top: 1px solid lime;
+  border-bottom: 1px solid lime;
   height: 0;
   margin-top: 0.4em;
   margin-bottom: 0.4em;
@@ -264,8 +264,8 @@ label[disabled="true"] {
 }
 
 .text-link {
-  color: lime;
-  background-color: rgba(255, 255, 255, 0.1);
+  color: #000;
+  background-color: lime;
   border: 1px solid transparent;
   cursor: pointer;
 }

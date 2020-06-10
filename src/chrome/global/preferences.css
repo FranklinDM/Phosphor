@@ -64,14 +64,12 @@ radio[pane] {
   height: 32px;
 }
 
-radio[pane]:hover:not([selected="true"]) {
+radio[pane]:hover {
   -moz-appearance: none;
   border-color: lime;
 }
 
 radio[pane][selected="true"] {
   -moz-appearance: none;
-  background-color: lime;
-  border-color: lime;
-  color: #000;
+  background-color: rgba(0, 255, 0, 0.5);
 }
