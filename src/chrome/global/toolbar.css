@@ -12,7 +12,7 @@
 
 toolbox {
   -moz-appearance: none;
-  background-color: #000;
+  background: #000 url("chrome://global/skin/icons/pattern.svg");
   border-top: 1px solid lime;
 }
 

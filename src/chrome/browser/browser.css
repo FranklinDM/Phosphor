@@ -14,6 +14,7 @@
 
 :root {
   --toolbar-custom-color: #000;
+  --toolbar-background-pattern: url("chrome://global/skin/icons/pattern.svg");
   --statusbar-custom-color: #000;
   --statusbar-text-color: lime;
 
@@ -39,7 +40,7 @@
 
 #navigator-toolbox {
   -moz-appearance: none;
-  background-color: transparent;
+  background: var(--toolbar-custom-color) var(--toolbar-background-pattern);
 }
 
 #navigator-toolbox:-moz-lwtheme {
@@ -54,7 +55,6 @@
 
 #navigator-toolbox > toolbar:not(:-moz-lwtheme) {
   -moz-appearance: none;
-  background-color: var(--toolbar-custom-color);
 }
 
 /*
