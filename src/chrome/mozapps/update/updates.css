@@ -120,7 +120,7 @@ wizardpage {
 
 /* Update History Window */
 update {
-  border-bottom: 1px dotted #C0C0C0;
+  border-bottom: 1px dotted lime;
 }
 
 .update-name {
@@ -133,11 +133,10 @@ update {
 
 .update-type {
   font-weight: bold;
-  color: #990000;
+  color: #fc0505;
 }
 
 #historyItems {
-  -moz-appearance: listbox;
   height: 200px;
   margin: 1px 5px 4px 5px;
 }

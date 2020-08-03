@@ -11,7 +11,7 @@
 }
 
 body {
-  border: 1px solid lime;
+  border: 3px double lime;
   padding: 3em;
   min-width: 30em;
   max-width: 65em;

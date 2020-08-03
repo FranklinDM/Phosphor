@@ -27,7 +27,7 @@ richlistbox:focus > richlistitem[selected="true"] {
 }
 
 richlistbox[seltype="multiple"]:focus > richlistitem[current="true"] {
-  outline: 1px dotted #666699;
+  outline: 1px dotted lime;
   outline-offset: -1px;
 }
 

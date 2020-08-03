@@ -56,7 +56,6 @@ radio[disabled="true"] > .radio-check-box1 > .radio-check-box2 {
 
 radio[disabled="true"] {
   color: #6A6A6A;
-  text-shadow: 1px 1px #ECECEC;
 }
 
 /* ::::: checkmark image ::::: */

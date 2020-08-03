@@ -14,7 +14,7 @@ body {
   min-width: 330px;
   max-width: 50em;
   margin: 4em auto;
-  border: 1px solid lime;
+  border: 3px double lime;
   padding: 3em;
   padding-inline-start: 30px;
   background: #000;

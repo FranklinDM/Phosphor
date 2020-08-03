@@ -125,7 +125,7 @@ sidebarheader {
   height: 25px;
   background-color: #000;
   -moz-appearance: none;
-  border-bottom: 1px solid #9999CC;
+  border-bottom: 1px solid lime;
 }
 
 sidebarheader > label {
@@ -232,7 +232,6 @@ description {
 
 label[disabled="true"] {
   color: #6A6A6A;
-  text-shadow: 1px 1px #ECECEC;
 }
 
 .tooltip-label {

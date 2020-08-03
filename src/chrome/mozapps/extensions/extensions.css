@@ -573,7 +573,12 @@
 }
 
 .addon[selected] {
-  background-color: rgba(0, 150, 0, 0.4);
+  background-color: lime;
+}
+
+.addon[selected],
+.addon[selected] .name-container {
+  color: #000;
 }
 
 .addon[active="false"][selected] .name-container {
@@ -622,7 +627,7 @@
 }
 
 .search-filter-radio[selected] {
-  background-color: #666699;
+  background-color: lime;
   color: #fff;
 }
 

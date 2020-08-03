@@ -32,7 +32,6 @@ menu[_moz-menuactive="true"][disabled="true"],
 menuitem[_moz-menuactive="true"][disabled="true"],
 .splitmenu-menuitem[_moz-menuactive="true"][disabled="true"] {
   color: #6A6A6A;
-  text-shadow: 1px 1px #ECECEC;
 }
 
 menuitem.spell-suggestion {

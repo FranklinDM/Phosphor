@@ -12,7 +12,7 @@
 .main-header-area {
   color: #000;
   background-color: #000;
-  border-bottom: 1px solid #9999CC;
+  border-bottom: 1px solid lime;
   padding: 0.4ex;
 }
 
@@ -42,7 +42,7 @@
 
 #attachmentList {
   -moz-appearance: none;
-  border-top: 1px solid #9999CC;
+  border-top: 1px solid lime;
   background-color: #fff;
   color: #000;
 }
@@ -71,8 +71,8 @@
 #attachmentName:hover,
 #attachmentName[selected="true"] {
   cursor: pointer;
-  color: #fff;
-  background-color: #666699;
+  color: #000;
+  background-color: lime;
 }
 
 #attachmentSize {
@@ -92,7 +92,7 @@
 }
 
 #attachment-splitter[collapsed="true"] + #attachmentView {
-  border-top: 1px solid #9999CC;
+  border-top: 1px solid lime;
 }
 
 #attachmentBar {
@@ -301,7 +301,7 @@ toolbarpaletteitem .msgHeaderView-button {
 }
 
 .headerName {
-  color: windowtext;
+  color: lime;
   opacity: 0.5; /* lower contrast */
   text-align: right;
   background-color: transparent;
@@ -319,7 +319,7 @@ toolbarpaletteitem .msgHeaderView-button {
 .headerValue {
   min-width: 50px;
   white-space: normal;
-  color: WindowText;
+  color: lime;
   line-height: 1.5em;
   -moz-appearance: none;
   padding: .1em 0px;
@@ -376,8 +376,8 @@ toolbarpaletteitem .msgHeaderView-button {
 
 .emailDisplayButton:hover {
   cursor: pointer;
-  color: #fff;
-  background-color: #666699;
+  color: #000;
+  background-color: lime;
 }
 
 mail-emailaddress[selected="true"] .emailDisplayButton{
@@ -385,8 +385,8 @@ mail-emailaddress[selected="true"] .emailDisplayButton{
     make sure that the email bubble stays displayed, and
     tweak the bottom to blend in more w/ the menu */
   cursor: pointer;
-  color: #fff;
-  background-color: #666699;
+  color: #000;
+  background-color: lime;
 }
 
 .emailSeparator {

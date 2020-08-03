@@ -11,7 +11,7 @@
 
 #clientBox {
   background-color: #000;
-  color: #000;
+  color: lime;
 }
 
 @media (-moz-windows-compositor) {

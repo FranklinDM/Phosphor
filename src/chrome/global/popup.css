@@ -8,7 +8,7 @@
 
 menupopup,
 panel {
-  border: 1px solid lime;
+  border: 3px double lime;
   padding: 0px;
   min-width: 1px;
   background: #000;

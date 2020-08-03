@@ -95,7 +95,7 @@
 .newtab-cell {
   margin-inline-end: 20px;
   background-color: #404060;
-  border: 1px solid #666699;
+  border: 1px solid lime;
   transition: none;
 }
 
@@ -138,8 +138,8 @@
 /* TITLES */
 .newtab-title {
   padding: 0 8px 1px;
-  background-color: #666699;
-  color: #CCCCFF;
+  background-color: lime;
+  color: #000;
   line-height: 24px;
 }
 

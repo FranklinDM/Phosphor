@@ -72,12 +72,12 @@ button:hover:not([disabled="true"]) > .button-box .button-text {
 button:hover:active:not([disabled="true"]),
 button[open="true"],
 button[checked="true"]:not([disabled="true"]) {
-  border-color: #009600;
-  background-color: rgba(0, 255, 0, 0.2);
+  border-color: #000;
+  background-color: lime;
 }
 
 button:hover:active:not([disabled="true"]):not([open="true"]) > .button-box .button-text {
-  color: lime;
+  color: #000;
   text-decoration: none;
 }
 
@@ -86,7 +86,6 @@ button:hover:active:not([disabled="true"]):not([open="true"]) > .button-box .but
 button[disabled="true"] {
   border-color: #6A6A6A;
   color: #6A6A6A;
-  text-shadow: 1px 1px #ECECEC;
 }
 
 button[disabled="true"] > .button-box {

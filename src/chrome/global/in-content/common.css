@@ -24,7 +24,7 @@
   --in-content-category-border-focus: 1px dotted #fff;
   --in-content-tab-color: #424f5a;
   --in-content-table-border-dark-color: #6A6A6A;
-  --in-content-table-header-background: #666699;
+  --in-content-table-header-background: lime;
 }
 
 html|html,
@@ -176,7 +176,6 @@ xul|textbox {
 *|button[disabled] {
   border-color: #6A6A6A;
   color: #6A6A6A;
-  text-shadow: 1px 1px #ECECEC;
 }
 
 html|select,
@@ -312,7 +311,7 @@ xul|radio {
 @media not all and (-moz-windows-default-theme) {
   xul|treechildren::-moz-tree-row(selected),
   xul|listbox xul|listitem[selected="true"] {
-     border: 2px dotted #666699;
+     border: 2px dotted lime;
   }
 }
 

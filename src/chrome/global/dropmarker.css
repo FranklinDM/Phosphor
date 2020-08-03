@@ -8,10 +8,9 @@ dropmarker {
   height: 16px;
   -moz-box-align: center;
   -moz-box-pack: center;
-  border: 1px solid lime;
-  background-color: #000;
+  background-color: lime;
   padding: 1px;
-  list-style-image: url("chrome://global/skin/arrow/arrow-dn.gif");
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-inverted.gif");
   -moz-image-region: auto;
 }
 

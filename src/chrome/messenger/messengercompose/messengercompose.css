@@ -107,8 +107,8 @@
 }
 
 #textcol-addressingWidget {
-  border: 1px solid threedshadow;
-  background-color: -moz-field;
+  border: 1px solid lime;
+  background-color: #000;
 }
 
 .addressingWidgetItem,
@@ -119,7 +119,7 @@
 }
 
 .addressingWidgetCell {
-  border-bottom: 1px solid #CACAFF;
+  border-bottom: 1px solid lime;
   padding: 0px;
 }
 

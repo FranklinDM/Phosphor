@@ -44,7 +44,7 @@ splitter:-moz-lwtheme {
 splitter[orient="vertical"] {
   cursor: ns-resize;
   border-width: 1px 0;
-  border-color: #9999CC;
+  border-color: lime;
   min-height: 6px;
 }
 
@@ -66,8 +66,8 @@ splitter[disabled="true"] {
 
 grippy {
   cursor: pointer;
-  border-top: 1px solid #9999CC;
-  border-bottom: 1px solid #9999CC;
+  border-top: 1px solid lime;
+  border-bottom: 1px solid lime;
   min-width: 4px;
   min-height: 115px;
   background-color: transparent;
@@ -80,9 +80,9 @@ grippy:hover {
 
 splitter[orient="vertical"] > grippy {
   border-top: none;
-  border-right: 1px solid #9999CC;
+  border-right: 1px solid lime;
   border-bottom: none;
-  border-left: 1px solid #9999CC;
+  border-left: 1px solid lime;
   min-width: 115px;
   min-height: 4px;
 }
