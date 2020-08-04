@@ -30,3 +30,6 @@ skin    os_target               phosphor        chrome/os_target/linux/       os
 #------------------------------------------------------------------------------
 # Another loading icon (with the same dimensions, seemingly redundant) is referenced by some applications
 override    chrome://global/skin/icons/loading.png    chrome://global/skin/icons/loading_16.png
+
+# DOM Inspector tree style
+override    chrome://inspector/skin/viewers/dom/dom.css    chrome://global/skin/tree-inspector.css
