@@ -66,7 +66,7 @@ menulist > .menulist-label-box > .menulist-icon[src] {
 /* override the color style for tag items when they 
    have selection */
 #tagList listitem[selected="true"] {
-  color: #000 !important;
+  color: #000000 !important;
 }
 
 #tagList:focus > listitem[selected="true"] {

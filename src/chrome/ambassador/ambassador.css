@@ -82,7 +82,7 @@ window {
     border: none;
     border-left: 1px solid ButtonShadow;
     padding: 0 5px;
-    background: Button;
+    background: #000000;
     font: message-box;
     text-shadow: none;
     text-align: center;
@@ -119,7 +119,8 @@ window {
     margin: 0 0 0 1px;
     border-left: none;
     padding: 5px;
-    background-color: #DDDDFF;
+    color: #000000;
+    background-color: #33FF33;
 }
 
 .view-button[state="current"] + .view-button {
@@ -128,12 +129,6 @@ window {
 
 .view-button[state="current"] {
     position: relative; /* So it visually appears above the tabs either side. */
-    border: 2px solid;
-    -moz-border-top-colors: #ECECEC transparent;
-    -moz-border-right-colors: #6A6A6A transparent;
-    -moz-border-bottom-colors: #6A6A6A transparent;
-    -moz-border-left-colors: #ECECEC transparent;
-    border-top-style: none;
     padding: 5px 3px 3px 3px;
 }
 
@@ -276,7 +271,7 @@ menuitem[header="true"] {
 {
     width: 24px;
     height: 16px;
-    border: 1px solid black;
+    border: 1px solid #000000;
     -moz-box-align: center;
     -moz-box-pack: center;
 }

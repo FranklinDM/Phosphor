@@ -31,8 +31,8 @@ dialog,
 wizard,
 prefwindow {
   -moz-appearance: none;
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
   font: 3mm Tahoma, Arial, Helvetica, message-box, sans-serif;
 }
 
@@ -85,8 +85,8 @@ iframe {
 
 statusbar {
   -moz-appearance: none;
-  border-top: 1px solid lime;
-  background-color: #000;
+  border-top: 1px solid #33FF33;
+  background-color: #000000;
   min-height: 22px;
 }
 
@@ -94,7 +94,7 @@ statusbarpanel {
   -moz-appearance: none;
   -moz-box-align: center;
   -moz-box-pack: center;
-  color: lime;
+  color: #33FF33;
   padding: 0 4px;
 }
 
@@ -123,9 +123,9 @@ statusbarpanel:not(.statusbar-resizerpanel):-moz-lwtheme {
 
 sidebarheader {
   height: 25px;
-  background-color: #000;
+  background-color: #000000;
   -moz-appearance: none;
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
 }
 
 sidebarheader > label {
@@ -153,7 +153,7 @@ toolbar[mode="text"] .toolbarbutton-text {
 }
 
 :root:-moz-lwtheme-brighttext {
-  text-shadow: 1px 1px 1.5px black;
+  text-shadow: 1px 1px 1.5px #000000;
 }
 
 statusbar:-moz-lwtheme,
@@ -164,16 +164,12 @@ sidebarheader:-moz-lwtheme {
 }
 
 .inset {
-  border: 1px solid #6A6A6A;
-  border-right-color: #ECECEC;
-  border-bottom-color: #ECECEC;
+  border: 1px solid #33FF33;
   margin: 0 5px 5px;
 }
 
 .outset {
-  border: 1px solid #6A6A6A;
-  border-left-color: #ECECEC;
-  border-top-color: #ECECEC;
+  border: 1px solid #33FF33;
 }
 
 /* separators */
@@ -192,8 +188,8 @@ separator.thin[orient="vertical"] {
 }
 
 separator.groove:not([orient="vertical"]) {
-  border-top: 1px solid lime;
-  border-bottom: 1px solid lime;
+  border-top: 1px solid #33FF33;
+  border-bottom: 1px solid #33FF33;
   height: 0;
   margin-top: 0.4em;
   margin-bottom: 0.4em;
@@ -263,8 +259,7 @@ label[disabled="true"] {
 }
 
 .text-link {
-  color: #000;
-  background-color: lime;
+  color: #FFB000;
   border: 1px solid transparent;
   cursor: pointer;
 }
@@ -274,7 +269,7 @@ label[disabled="true"] {
 }
 
 .text-link:-moz-focusring {
-  border: 1px dotted #000;
+  border: 1px dotted #FFB000;
 }
 
 /* :::::: autoscroll popup ::::: */
@@ -304,6 +299,7 @@ label[disabled="true"] {
 .close-icon {
   list-style-image: url("chrome://global/skin/icons/close.png");
   -moz-image-region: rect(0, 16px, 16px, 0);
+  background: transparent;
 }
 
 .close-icon:hover {

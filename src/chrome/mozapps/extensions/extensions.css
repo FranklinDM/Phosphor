@@ -120,9 +120,9 @@
 .alert {
   -moz-box-align: center;
   padding: 10px;
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 .alert .alert-title {
@@ -154,9 +154,9 @@
 
 .category {
   -moz-appearance: none;
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid transparent;
+  background-color: #000000;
+  color: #33FF33;
   min-height: 0;
   -moz-box-align: center;
   overflow: hidden;
@@ -178,9 +178,13 @@
   transition-duration: 1s, 0.8s;
 }
 
+.category:not([disabled]):not([selected]):hover {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
 .category[selected] {
-  background-color: lime;
-  color: #000;
+  background-color: rgba(0, 255, 0, 0.5);
+  border-color: #33FF33;
 }
 
 .category-name {
@@ -267,7 +271,14 @@
 
 #header-utils-btn {
   list-style-image: url("chrome://mozapps/skin/extensions/utilities.png");
+  -moz-image-region: rect(0, 16px, 16px, 0);
   margin-inline-end: 16px;
+}
+
+#header-utils-btn:not([disabled="true"]):hover:active,
+#header-utils-btn[open="true"]:hover,
+#header-utils-btn[open="true"] {
+  -moz-image-region: rect(0, 32px, 16px, 16px);
 }
 
 .view-header {
@@ -299,13 +310,17 @@
   padding-bottom: 0;
 }
 
+/* Override button behavior in this state */
+.sorter:hover:active > .button-box .button-text {
+  color: #33FF33 !important;
+}
+
 .sorter[checkState="1"],
 .sorter[checkState="2"] {
   /* set to important because greasemonkey overrides this selector */
-  background-color: transparent !important;
-  color: #000 !important;
-  border: 1px solid;
-  border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
+  background-color: rgba(0, 255, 0, 0.5) !important;
+  color: #33FF33 !important;
+  border: 1px solid #33FF33;
   box-shadow: none !important;
 }
 
@@ -366,8 +381,8 @@
 }
 
 .addon {
-  color: lime;
-  border-bottom: 1px solid lime;
+  color: #33FF33;
+  border-bottom: 1px solid #33FF33;
   padding: 5px;
   background-origin: border-box;
 }
@@ -416,7 +431,7 @@
 .name-container {
   font-size: 150%;
   font-weight: bold;
-  color: lime;
+  color: #33FF33;
   margin-bottom: 0;
   -moz-box-align: end;
   -moz-box-flex: 1;
@@ -424,10 +439,6 @@
 
 .creator {
   font-weight: bold;
-}
-
-.creator .text-link {
-  color: #0066CC;
 }
 
 .description-container {
@@ -485,20 +496,20 @@
 }
 
 .addon-view .warning {
-  color: #916D15;
+  color: #F9E504;
 }
 
 .addon-view .error {
-  color: #864441;
+  color: #FC2B20;
 }
 
 .addon-view .pending {
-  color: #1B7123;
+  color: #3CFC4F;
 }
 
 .addon-view[pending="disable"] .pending,
 .addon-view[pending="uninstall"] .pending {
-  color: #62666E;
+  color: #8E94A0;
 }
 
 .addon .relnotes-container {
@@ -546,43 +557,15 @@
 
 .addon-view[active="false"],
 .addon-view[active="false"] .name-container {
-  color: #888A8B;
+  color: #A9AAAA;
 }
 
-.addon-view[notification="warning"][native="false"] {
-  background-color: rgba(255, 128, 0, 0.04);
-}
-
-.addon-view[notification="warning"] {
-  background-color: rgb(255, 255, 224);
-}
-
-.addon-view[notification="error"] {
-  background-color: rgb(255, 204, 204);
-}
-
-.addon-view[pending="enable"],
-.addon-view[pending="upgrade"],
-.addon-view[pending="install"] {
-  background-color: rgb(184, 245, 181);
-}
-
-.addon-view[pending="disable"],
-.addon-view[pending="uninstall"] {
-  background-color: rgb(211, 211, 211);
+.addon:not([selected]):hover {
+  background-color: rgba(0, 255, 0, 0.2);
 }
 
 .addon[selected] {
-  background-color: lime;
-}
-
-.addon[selected],
-.addon[selected] .name-container {
-  color: #000;
-}
-
-.addon[active="false"][selected] .name-container {
-  color: #3F3F3F;
+  background-color: rgba(0, 255, 0, 0.5);
 }
 
 
@@ -627,7 +610,7 @@
 }
 
 .search-filter-radio[selected] {
-  background-color: lime;
+  background-color: #33FF33;
   color: #fff;
 }
 
@@ -868,7 +851,7 @@ menulist { /* Fixes some styling inconsistencies */
 .download-progress {
   border: 1px solid;
   border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
-  background-color: #000;
+  background-color: #000000;
   width: 200px;
   height: 21px;
   margin: 0 8px;
@@ -989,25 +972,28 @@ menulist { /* Fixes some styling inconsistencies */
   display: block !important;
 }
 
+
 button.button-link {
   -moz-appearance: none;
   background: transparent;
   border: none;
   box-shadow: none;
   text-decoration: underline;
-  color: #0066CC;
   cursor: pointer;
   min-width: 0;
   margin: 0 6px;
 }
 
-.text-link {
-  color: #3386D5;
+.detail-row-value.text-link,
+.button-link .button-text,
+.creator > .text-link,
+button.button-link {
+  color: #FFB000;
 }
 
-.button-link:hover,
+.text-link,
 .text-link:hover {
-  color: #3DA1FF;
+  color: #00FF00;
 }
 
 /* Needed to override normal button style from inContent.css */
@@ -1019,16 +1005,16 @@ button.button-link:not([disabled="true"]):active:hover {
 
 .header-button {
   -moz-appearance: none;
-  border: 1px solid;
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
-  background-color: #000;
+  border: 1px solid #33FF33;
+  background-color: #000000;
   color: ButtonText;
   text-shadow: none;
 }
 
 .header-button:not([disabled="true"]):hover:active,
 .header-button[open] {
-  border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
+  border-color: #00FF00;
+  background-color: #33FF33;
 }
 
 .header-button[disabled="true"] {

@@ -7,9 +7,9 @@
 richlistbox {
   -moz-appearance: none;
   margin: 2px 4px;
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 richlistbox[disabled="true"] {
@@ -17,17 +17,17 @@ richlistbox[disabled="true"] {
 }
 
 richlistitem[selected="true"] {
-  background-color: #808080;
-  color: #fff;
+  background-color: #007000;
+  color: #33FF33;
 }
 
 richlistbox:focus > richlistitem[selected="true"] {
-  background-color: lime;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 richlistbox[seltype="multiple"]:focus > richlistitem[current="true"] {
-  outline: 1px dotted lime;
+  outline: 1px dotted #33FF33;
   outline-offset: -1px;
 }
 

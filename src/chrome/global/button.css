@@ -14,9 +14,9 @@ button {
   -moz-appearance: none;
   margin: 1px 5px 2px 5px;
   min-width: 6.3em;
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
   text-shadow: none;
 }
 
@@ -55,30 +55,28 @@ button[default="true"][disabled="true"] > .button-box {
   list-style-image: url("chrome://global/skin/arrow/return-dis.gif");
 }
 
+button[default="true"]:not([disabled="true"]):hover:active > .button-box {
+  list-style-image: url("chrome://global/skin/arrow/return-inverted.gif");
+}
+
 button[default="true"] > .button-box > .button-icon {
   margin-inline-start: 2px;
 }
 
-/* .......... hover/open state .......... */
+/* .......... hover state .......... */
 
-button[open="true"] > .button-box .button-text,
 button:hover:not([disabled="true"]) > .button-box .button-text {
-  color: lime;
   text-decoration: underline;
 }
 
 /* .......... active/open/checked state .......... */
 
-button:hover:active:not([disabled="true"]),
+button:hover:active:not([disabled="true"]):not([type="menu-button"]),
 button[open="true"],
 button[checked="true"]:not([disabled="true"]) {
-  border-color: #000;
-  background-color: lime;
-}
-
-button:hover:active:not([disabled="true"]):not([open="true"]) > .button-box .button-text {
-  color: #000;
-  text-decoration: none;
+  color: #000000;
+  border-color: #00FF00;
+  background-color: #33FF33;
 }
 
 /* .......... disabled state .......... */
@@ -113,6 +111,8 @@ button[type="menu-button"] {
 }
 
 .button-menubutton-dropmarker {
+  border: 1px solid #33FF33;
+  border-left-style: none;
   margin: 1px 5px 2px -5px;
 }
 

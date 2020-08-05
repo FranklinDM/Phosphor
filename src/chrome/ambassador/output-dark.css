@@ -10,7 +10,7 @@
 @import url(chrome://ambassador/content/output-base.css);
 
 .ambassador-body {                 /* The topmost container in the Ambassador */
-    background: black;             /* output window. */
+    background: #000000;             /* output window. */
     color: lightgrey;    
 }
 
@@ -23,7 +23,7 @@ a.ambassador-link:visited {
 }
 
 .header-outer {
-    background-color: black;
+    background-color: #000000;
 }
 
 .header {
@@ -40,9 +40,9 @@ a.ambassador-link:visited {
     color: silver;
 }
 
-/* Style userlist as white-on-black. */
+/* Style userlist as white-on-#000000. */
 treechildren {
-    background: black;
+    background: #000000;
     color: white;
 }
 
@@ -50,15 +50,15 @@ treechildren {
 treechildren:-moz-tree-row(unselected),
 treechildren:-moz-tree-cell(unselected),
 treechildren:-moz-tree-cell-text(unselected) {
-    border-color: black !important;
-    background: black !important;
+    border-color: #000000 !important;
+    background: #000000 !important;
     color: white !important;
 }
 treechildren::-moz-tree-row(unselected),
 treechildren::-moz-tree-cell(unselected),
 treechildren::-moz-tree-cell-text(unselected) {
-    border-color: black !important;
-    background: black !important;
+    border-color: #000000 !important;
+    background: #000000 !important;
     color: white !important;
 }
 
@@ -116,7 +116,7 @@ treechildren::-moz-tree-cell-text(unselected) {
 }
 
 .msg-type {                                 /* .msg-type = message type       */
-    color: silver;                          /* indicator                      */
+    color: #33FF33;                         /* indicator                      */
 }
 
 .msg-user a.ambassador-link,

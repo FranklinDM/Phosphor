@@ -10,10 +10,6 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-#acctCentralGrid {
-  background-color: Window;
-}
-
 spacer,
 spacer.big {
   max-height: .5em;
@@ -27,7 +23,7 @@ spacer.big {
   padding-inline-end: 0px;
   font-size: 180%;
   font-weight: bold;
-  color: WindowText;
+  color: #33FF33;
 }
 
 .acctCentralRow {
@@ -42,9 +38,9 @@ spacer.big {
 }
 
 .acctCentralRowTitleBox {
-  background-color: ButtonFace;
+  background-color: #33FF33;
   margin: 15px 6px 0px;
-  color: #000;
+  color: #000000;
   padding-top: 2px;
   padding-bottom: 0;
   padding-inline-start: 8px;
@@ -56,7 +52,7 @@ spacer.big {
 /* ::::: links ::::: */
 
 .acctCentralText {
-  color: WindowText;
+  color: #33FF33;
   padding-inline-start: 15px;
   margin-top: .35em;
   margin-bottom: .35em;
@@ -65,7 +61,7 @@ spacer.big {
 }
 
 .acctCentralNewAcctText {
-  color: WindowText;
+  color: #33FF33;
   padding-inline-start: 20px;
   padding-inline-end: 10px;
   background-position: 0 2px;
@@ -73,15 +69,6 @@ spacer.big {
 
 .acctCentralLinkText {
   cursor: pointer;
-}
-
-.acctCentralLinkText:hover,
-.acctCentralLinkText:focus {
-  color: -moz-NativehyperlinkText;
-}
-
-.acctCentralLinkText:hover:active {
-  color: -moz-html-CellHighlight;
 }
 
 #CreateAccountsList {

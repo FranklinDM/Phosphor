@@ -24,9 +24,9 @@
 /* ::::: special toolbar colors ::::: */
 
 #MsgHeadersToolbar {
-  color: #000;
+  color: #33FF33;
   text-shadow: none;
-  background-color: #000;
+  background-color: #000000;
 }
 
 #attachmentbucket-sizer {
@@ -39,13 +39,6 @@
 }
 
 /* ::::: attachment reminder ::::: */
-
-#attachmentNotificationBox > notification > .notification-inner {
-  border-top: 1px solid ThreeDShadow;
-  border-right: 1px solid ThreeDHighlight;
-  border-left: 1px solid ThreeDShadow;
-  border-bottom: none;
-}
 
 #attachmentNotificationBox > notification .messageImage {
   width: 24px;
@@ -77,7 +70,7 @@
   border-left: none;
   border-right: none;
   border-top: none;
-  background-color: #000;
+  background-color: #000000;
 }
 
 #headers-box[hidden="true"] ~ #compose-toolbar-sizer {
@@ -107,8 +100,8 @@
 }
 
 #textcol-addressingWidget {
-  border: 1px solid lime;
-  background-color: #000;
+  border: 1px solid #33FF33;
+  background-color: #000000;
 }
 
 .addressingWidgetItem,
@@ -119,7 +112,7 @@
 }
 
 .addressingWidgetCell {
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
   padding: 0px;
 }
 
@@ -475,9 +468,9 @@ toolbarbutton.formatting-button {
 
 #sidebar-box sidebarheader {
   -moz-appearance: none;
-  color: #000;
+  color: #000000;
   text-shadow: none;
-  background-color: #000;
+  background-color: #000000;
 }
 
 .ab-closebutton {
@@ -762,5 +755,5 @@ treechildren::-moz-tree-image(subscribed-news) {
 }
 
 #sidebar {
-  background-color: #000;
+  background-color: #000000;
 }

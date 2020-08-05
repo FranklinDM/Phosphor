@@ -95,7 +95,7 @@ findbar[hidden] {
 
 .findbar-textbox[flash="true"] {
   box-shadow: 0 0 0 1em yellow inset;
-  color: black;
+  color: #000000;
 }
 
 .find-status-icon[status="wrapped"] {

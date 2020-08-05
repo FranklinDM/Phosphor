@@ -10,10 +10,8 @@
   -moz-appearance: none;
   margin: 3px 4px 10px 4px;
   height: 14em;
-  border: 1px solid;
-  border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
-  background-color: #fff;
-  color: #000;
+  border: 1px solid #33FF33;
+  color: #33FF33;
 }
 
 #itemWarningIntro {
@@ -29,7 +27,7 @@ installitem {
   padding-bottom: 5px;
   padding-inline-start: 5px;
   padding-inline-end: 0;
-  border-bottom: 1px dotted #C0C0C0;
+  border-bottom: 1px dotted #33FF33;
   margin-bottom: 5px;
 }
 
@@ -65,8 +63,7 @@ installitem {
   -moz-appearance: none;
   border: none;
   padding: 0;
-  background-color: #fff;
-  color: #000;
+  color: #33FF33;
   margin-top: 1px;
   margin-bottom: 1px;
   margin-inline-start: 6px;

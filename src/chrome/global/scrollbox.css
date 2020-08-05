@@ -92,7 +92,7 @@ autorepeatbutton {
 autorepeatbutton:not([disabled="true"]):hover,
 autorepeatbutton:not([disabled="true"]):hover:active {
   margin: 1px;
-  border: 1px inset ThreeDFace;
+  border: 1px solid #009600;
   padding-top: 2px;
   padding-bottom: 1px;
   padding-inline-start: 2px;

@@ -5,11 +5,11 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 notification {
-  color: lime;
+  color: #33FF33;
   background-color: rgba(0, 255, 0, 0.2);
   text-shadow: none;
-  border-top: 1px solid lime;
-  border-bottom: 1px solid lime;
+  border-top: 1px solid #33FF33;
+  border-bottom: 1px solid #33FF33;
 }
 
 notificationbox[notificationside="top"] > notification {

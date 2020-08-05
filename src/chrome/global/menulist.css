@@ -14,9 +14,9 @@
 menulist {
   -moz-appearance: none;
   margin: 2px 4px;
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
   text-shadow: none;
 }
 
@@ -42,19 +42,17 @@ menulist {
 
 .menulist-description {
   font-style: italic;
-  color: #6A6A6A;
+  color: #FFFFFF;
   margin-inline-start: 1ex !important;
 }
 
 /* ..... dropmarker ..... */
 
 menulist[disabled="true"]:hover:active > .menulist-dropmarker {
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
   padding: 1px;
 }
 
 menulist[open="true"] > .menulist-dropmarker {
-  border-color: #6A6A6A;
   padding-top: 2px;
   padding-bottom: 0px;
   padding-inline-start: 2px;
@@ -64,8 +62,8 @@ menulist[open="true"] > .menulist-dropmarker {
 /* ..... focused state ..... */
 
 menulist:focus:not([open="true"]) > .menulist-label-box {
-  background-color: lime;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 menulist:-moz-focusring:not([open="true"]) > .menulist-label-box {
@@ -75,7 +73,7 @@ menulist:-moz-focusring:not([open="true"]) > .menulist-label-box {
 /* ..... disabled state ..... */
 
 menulist[disabled="true"] {
-  background-color: #000;
+  background-color: #000000;
   color: #6A6A6A;
 }
 
@@ -94,5 +92,5 @@ html|*.menulist-editable-input {
   padding: 0px !important;
   background: inherit;
   font: inherit;
-  color: lime;
+  color: #33FF33;
 }

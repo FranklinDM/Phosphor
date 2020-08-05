@@ -6,25 +6,25 @@
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
 *|*:root {
-  --in-content-page-color: #000;
-  --in-content-page-background: #000;
-  --in-content-text-color: lime;
-  --in-content-selected-text: #fff;
-  --in-content-header-border-color: #6A6A6A;
+  --in-content-page-color: #33FF33;
+  --in-content-page-background: #000000;
+  --in-content-text-color: #33FF33;
+  --in-content-selected-text: #000000;
+  --in-content-header-border-color: #33FF33;
   --in-content-box-background: #fff;
   --in-content-box-background-odd: #f3f6fa;
   --in-content-box-background-hover: #ebebeb;
   --in-content-box-background-active: #dadada;
-  --in-content-box-border-color: #c1c1c1;
+  --in-content-box-border-color: #33FF33;
   --in-content-item-hover: rgba(0,149,221,0.25);
   --in-content-item-selected: #0095dd;
   --in-content-border-highlight: #ff9500;
   --in-content-border-focus: #0095dd;
-  --in-content-border-color: #6A6A6A;
+  --in-content-border-color: #33FF33;
   --in-content-category-border-focus: 1px dotted #fff;
   --in-content-tab-color: #424f5a;
-  --in-content-table-border-dark-color: #6A6A6A;
-  --in-content-table-header-background: lime;
+  --in-content-table-border-dark-color: #33FF33;
+  --in-content-table-header-background: #33FF33;
 }
 
 html|html,
@@ -56,8 +56,8 @@ xul|caption > xul|label {
 }
 
 *|*.main-content {
-  background-color: #000;
-  color: #000;
+  background-color: #000000;
+  color: #33FF33;
   
   margin-top: 40px;
   margin-inline-end: 1.2em;
@@ -67,8 +67,7 @@ xul|caption > xul|label {
   
   overflow: auto;
 
-  border: 1px solid;
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
+  border: 1px solid #33FF33;
 }
 
 *|*.panel {
@@ -162,20 +161,22 @@ xul|textbox {
 }
 
 *|button {
-  border: 1px solid lime;
-  background-color: #000;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
 }
 *|button:hover:not([disabled]) {
-  color: lime;
   text-decoration: underline;
 }
 *|button:hover:active:not([disabled]) {
   text-decoration: none;
-  border-color: #009600;
+  border-color: #00FF00;
+  background-color: #33FF33;
+  color: #000000;
 }
 *|button[disabled] {
-  border-color: #6A6A6A;
-  color: #6A6A6A;
+  border-color: #33FF33;
+  color: #33FF33;
 }
 
 html|select,
@@ -184,9 +185,9 @@ xul|menulist,
 html|input[type="text"],
 html|textarea,
 xul|textbox {
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 /* Checkboxes and radio buttons */
@@ -214,17 +215,17 @@ html|input[type="checkbox"] + html|label:before {
   -moz-appearance: none;
   width: 13px;
   height: 13px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   margin-inline-end: 10px;
-  background-color: #000;
+  background-color: #000000;
   /* !important needed to override toolkit checked !important rule */
-  background-image: linear-gradient(#000, #000) !important;
+  background-image: linear-gradient(#000000, #000000) !important;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 html|input[type="checkbox"]:checked + html|label:before {
-  background-image: url("chrome://global/skin/checkbox/cbox-check.gif"), linear-gradient(#000, #000) !important;
+  background-image: url("chrome://global/skin/checkbox/cbox-check.gif"), linear-gradient(#000000, #000000) !important;
 }
 
 html|input[type="checkbox"]:disabled + html|label {
@@ -256,17 +257,22 @@ xul|radio {
 
 *|*.category {
   -moz-appearance: none;
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid transparent;
+  background-color: #000000;
+  color: #33FF33;
   padding-inline-start: 15px;
   padding-inline-end: 5em;
   min-height: 50px;
 }
 
+*|*.category:not([disabled]):not([selected]):not(.selected):hover {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
 *|*.category[selected],
 *|*.category.selected {
-  border-color: #6A6A6A;
+  background-color: rgba(0, 255, 0, 0.5);
+  border-color: #33FF33;
 }
 
 *|*#categories[keyboard-navigation="true"]:-moz-focusring > *|*.category[current] {
@@ -311,17 +317,22 @@ xul|radio {
 @media not all and (-moz-windows-default-theme) {
   xul|treechildren::-moz-tree-row(selected),
   xul|listbox xul|listitem[selected="true"] {
-     border: 2px dotted lime;
+     border: 2px dotted #33FF33;
   }
 }
 
+/* In-content page overrides */
+
 #warning_message > .container {
-  background-color: #000;
-  color: lime;
-  border: 1px solid #6A6A6A;
+  background-color: #000000;
+  color: #33FF33;
+  border: 3px double #33FF33;
   padding: 2em 3em;
   padding-inline-start: 30px;
   margin-left: 1em;
   margin-right: 1em;
-  border-radius: 10px;
+}
+
+#subprocess-reports td {
+  background-color: var(--in-content-page-background) !important;
 }

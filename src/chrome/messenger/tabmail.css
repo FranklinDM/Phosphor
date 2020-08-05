@@ -79,7 +79,7 @@ tabpanels {
 }
 
 .tabmail-tab:focus > .tab-stack > .tab-content > .tab-text {
-  border: 1px dotted #000;
+  border: 1px dotted #000000;
 }
 
 /* Tab DnD indicator */
@@ -172,28 +172,12 @@ tabpanels {
 
 .tabmail-arrowscrollbox > .scrollbutton-up,
 .tabmail-arrowscrollbox > stack > .scrollbutton-down {
-  list-style-image: url("tabs/arrow-left.png");
-}
-
-.tabmail-arrowscrollbox > .scrollbutton-up,
-.tabmail-arrowscrollbox > stack > .scrollbutton-down {
-  -moz-image-region: rect(0px, 11px, 11px, 0px); 
-}
-
-.tabmail-arrowscrollbox > .scrollbutton-up:not([disabled="true"]):hover,
-.tabmail-arrowscrollbox > stack > .scrollbutton-down:not([disabled="true"]):hover {
-  -moz-image-region: rect(0px, 22px, 11px, 11px);
+  list-style-image: url("chrome://global/skin/arrow/arrow-lft-sharp.gif");
 }
 
 .tabmail-arrowscrollbox > .scrollbutton-up[disabled],
 .tabmail-arrowscrollbox > stack > .scrollbutton-down[disabled] {
-  -moz-image-region: rect(0px, 33px, 11px, 22px);
   opacity: .4;
-}
-
-.tabmail-arrowscrollbox > .scrollbutton-up:not([disabled]):hover:active,
-.tabmail-arrowscrollbox > stack > .scrollbutton-down:not([disabled]):hover:active {
-  -moz-image-region: rect(0px, 44px, 11px, 33px);
 }
 
 .tabmail-arrowscrollbox > .scrollbutton-up:-moz-locale-dir(rtl),

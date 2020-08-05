@@ -602,17 +602,17 @@ treechildren::-moz-tree-row(lc-3333FF, selected) {
 }
 
 treechildren::-moz-tree-cell-text(lc-000099) {
-  color: #000099
+  color: #000000099
 }
 treechildren::-moz-tree-row(lc-000099, selected) {
-  background-color: #000099;
+  background-color: #000000099;
 }
 
 treechildren::-moz-tree-cell-text(lc-000066) {
-  color: #000066
+  color: #000000066
 }
 treechildren::-moz-tree-row(lc-000066, selected) {
-  background-color: #000066;
+  background-color: #000000066;
 }
 
 treechildren::-moz-tree-cell-text(lc-CCCCFF) {

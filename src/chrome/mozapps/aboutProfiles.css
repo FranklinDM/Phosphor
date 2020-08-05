@@ -4,6 +4,7 @@
 
 html {
   background-color: var(--in-content-page-background);
+  color: var(--in-content-text-color);
 }
 
 body {
@@ -47,7 +48,6 @@ th.column {
 }
 
 td {
-  background-color: #ebebeb;
   border-color: var(--in-content-table-border-dark-color);
 }
 

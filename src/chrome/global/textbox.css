@@ -15,11 +15,11 @@ textbox {
   -moz-appearance: none;
   cursor: text;
   margin: 2px 4px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   padding: 2px 2px 3px;
   padding-inline-start: 4px;
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 html|*.textbox-input, 
@@ -47,7 +47,7 @@ textbox[readonly="true"] {
 textbox[disabled="true"] {
   cursor: default;
   border-color: #6A6A6A;
-  background-color: #000;
+  background-color: #000000;
   color: #6A6A6A;
 }
 

@@ -66,6 +66,16 @@ toolbox:-moz-lwtheme {
   padding-inline-end: 4px;
 }
 
+.toolbarbutton-1[disabled=true] > .toolbarbutton-icon,
+.toolbarbutton-1[disabled=true] > hbox > .toolbarbutton-menu-dropmarker,
+.toolbarbutton-1[disabled=true] > hbox > vbox > .toolbarbutton-icon,
+.toolbarbutton-1[disabled=true] > .toolbarbutton-menu-dropmarker,
+.toolbarbutton-1[disabled=true] > .toolbarbutton-menubutton-dropmarker,
+.toolbarbutton-1[disabled=true] > .toolbarbutton-menubutton-button > .toolbarbutton-icon,
+.toolbarbutton-1 > .toolbarbutton-menubutton-button[disabled] > .toolbarbutton-icon {
+  opacity: .4;
+}
+
 .toolbarbutton-1[checked="true"] {
   padding-top: 6px !important;
   padding-bottom: 5px !important;
@@ -97,7 +107,7 @@ sidebarheader .toolbarbutton-text:not([value]) {
 .remote-gloda-search {
   -moz-appearance: none;
   min-height: 22px;
-  border: 1px solid threedshadow;
+  border: 1px solid #33FF33;
   padding-inline-end: 2px;
   padding-inline-start: 2px;
 }

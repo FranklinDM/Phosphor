@@ -24,9 +24,9 @@ body {
 }
 
 #heading_wrapper {
-  background-color: #000;
-  color: #000;
-  border-bottom: 1px solid lime;
+  background-color: #000000;
+  color: #000000;
+  border-bottom: 1px solid #33FF33;
 }
 
 #header-view-toolbox {

@@ -13,19 +13,19 @@
 .tabs-left,
 .tabs-right {
   border-bottom: 1px solid;
-  -moz-border-bottom-colors: lime;
+  -moz-border-bottom-colors: #33FF33;
 }
 
 /* ::::: tabpanels ::::: */
 
 tabpanels {
   -moz-appearance: none; 
-  border-right: 1px solid lime;
-  border-bottom: 1px solid lime;
-  border-left: 1px solid lime;
+  border-right: 1px solid #33FF33;
+  border-bottom: 1px solid #33FF33;
+  border-left: 1px solid #33FF33;
   padding: 8px;
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 /* ::::: tab ::::: */
@@ -33,10 +33,10 @@ tabpanels {
 tab {
   -moz-appearance: none;
   margin-top: 2px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   padding: 1px 4px 2px 4px;
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 .tab-text {
@@ -44,12 +44,12 @@ tab {
 }
 
 tab:hover {
-  color: lime;
+  color: #33FF33;
   text-decoration: underline;
 }
 
 tab[selected="true"] {
-  color: lime;
+  color: #33FF33;
   margin-top: 0;
   border-bottom-color: transparent;
   padding: 1px 6px 4px 6px;
@@ -89,14 +89,14 @@ tab:first-of-type[selected="true"] {
   margin-bottom: 2px;
   border-top: 1px solid;
   border-bottom: 2px solid;
-  -moz-border-top-colors: lime;
-  -moz-border-bottom-colors: lime #000;
+  -moz-border-top-colors: #33FF33;
+  -moz-border-bottom-colors: #33FF33 #000000;
   padding: 2px 4px 1px 4px;
 }
 
 .tab-bottom[selected="true"] {
   margin-bottom: 0;
-  -moz-border-top-colors: #000;
+  -moz-border-top-colors: #000000;
   border-top-width: 0;
   padding: 4px 6px 1px 6px;
 }
@@ -105,6 +105,6 @@ tab:first-of-type[selected="true"] {
 
 .tabs-bottom > .tabs-left,
 .tabs-bottom > .tabs-right {
-  border-top: 1px solid lime;
+  border-top: 1px solid #33FF33;
   border-bottom: none;
 }

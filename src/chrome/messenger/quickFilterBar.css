@@ -65,7 +65,7 @@ toolbox[labelalign="end"] #qfb-show-filter-bar {
 /* :::: Filter Bar :::: */
 
 #quick-filter-bar-expando {
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
 }
 
 #threadTree[filterActive="searching"] {

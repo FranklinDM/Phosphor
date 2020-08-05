@@ -12,8 +12,8 @@
 
 toolbox {
   -moz-appearance: none;
-  background: #000 url("chrome://global/skin/icons/pattern.svg");
-  border-top: 1px solid lime;
+  background: #000000 url("chrome://global/skin/icons/pattern.svg");
+  border-top: 1px solid #33FF33;
 }
 
 /* ::::: toolbar & menubar ::::: */
@@ -22,7 +22,7 @@ toolbar, menubar {
   -moz-appearance: none;
   min-width: 1px;
   min-height: 19px;
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
 }
 
 /* ::::: lightweight theme ::::: */
@@ -44,7 +44,7 @@ toolbarseparator {
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
   -moz-border-left-colors  : transparent transparent;
-  -moz-border-right-colors : transparent lime;
+  -moz-border-right-colors : transparent #33FF33;
 }
 
 toolbarspacer {
@@ -59,7 +59,7 @@ toolbarpaletteitem {
 
 .toolbarpaletteitem-box[type="spacer"],
 .toolbarpaletteitem-box[type="spring"] {
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
 }
 
 toolbarpaletteitem[place="toolbar"] > toolbarspacer {
@@ -100,9 +100,9 @@ toolbarpaletteitem[place="toolbar"] {
 }
 
 toolbarpaletteitem[dragover="left"] {
-  border-left-color: lime;
+  border-left-color: #33FF33;
 }
 
 toolbarpaletteitem[dragover="right"] {
-  border-right-color: lime;
+  border-right-color: #33FF33;
 }

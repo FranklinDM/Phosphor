@@ -25,9 +25,8 @@
 
 .scale-thumb {
   -moz-appearance: none;
-  border: 1px solid;
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
-  background-color: #000;
+  border: 1px solid #33FF33;
+  background-color: #000000;
   min-width: 30px;
   min-height: 15px;
 }

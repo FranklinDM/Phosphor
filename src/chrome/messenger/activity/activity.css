@@ -261,8 +261,8 @@ image.compactMail {
 }
 
 .activityitem[selected="true"] {
-  background-color: #000;
-  color: #000;
+  background-color: #000000;
+  color: #000000;
 }
 
 richlistbox:focus .activityitem[selected="true"],

@@ -5,9 +5,9 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 .wizard-header {
-  border-bottom: 2px groove lime;
-  background-color: #000;
-  color: lime;
+  border-bottom: 3px double #33FF33;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 .wizard-header-box-1 {

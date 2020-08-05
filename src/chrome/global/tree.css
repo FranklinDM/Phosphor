@@ -13,9 +13,9 @@
 tree {
   -moz-appearance: none;
   margin: 0px 4px;
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 /* ::::: tree focusring ::::: */
@@ -37,15 +37,15 @@ treechildren::-moz-tree-row {
 }
 
 treechildren::-moz-tree-row(selected) {
-  background-color: #808080;
+  background-color: #007000;
 }
 
 treechildren::-moz-tree-row(selected, focus) {
-  background-color: lime;
+  background-color: #33FF33;
 }
 
 treechildren::-moz-tree-row(current, focus) {
-  border: 1px dotted lime;
+  border: 1px dotted #33FF33;
 }
 
 treechildren::-moz-tree-row(selected, current, focus) {
@@ -72,7 +72,7 @@ treechildren::-moz-tree-cell-text {
 }
 
 treechildren::-moz-tree-cell-text(selected) {
-  color: #fff;
+  color: #33FF33;
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell {
@@ -86,35 +86,35 @@ tree[seltype="text"] > treechildren::-moz-tree-cell-text {
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected) {
-  background-color: #808080;
+  background-color: #007000;
 }
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected) {
-  color: #fff;
+  color: #33FF33;
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected) {
-  background-color: #808080;
-  color: #fff;
+  background-color: #007000;
+  color: #33FF33;
 }
 
 treechildren::-moz-tree-cell-text(selected, focus) {
-  color: #000;
+  color: #000000;
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected, focus) {
-  background-color: lime;
+  background-color: #33FF33;
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
-  background-color: lime;
+  background-color: #33FF33;
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
-  color: #000;
+  color: #000000;
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
-  color: #000;
+  color: #000000;
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, current, focus) {
@@ -138,7 +138,7 @@ tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, curre
 tree[seltype="cell"] > treechildren::-moz-tree-line,
 tree[seltype="text"] > treechildren::-moz-tree-line,
 treechildren::-moz-tree-line {
-  border: 1px dotted lime;
+  border: 1px dotted #33FF33;
   visibility: visible;
   border-style: dotted;
 }
@@ -146,31 +146,31 @@ treechildren::-moz-tree-line {
 tree[seltype="cell"] > treechildren::-moz-tree-line(active, selected, focus),
 treechildren::-moz-tree-line(selected),
 treechildren::-moz-tree-line(selected, focus) {
-  border: 1px dotted #000;
+  border: 1px dotted #000000;
 }
 
 /* ::::: tree separator ::::: */
 
 treechildren::-moz-tree-separator {
-  border-top: 1px solid lime;
-  border-bottom: 1px solid lime;
+  border-top: 1px solid #33FF33;
+  border-bottom: 1px solid #33FF33;
 }
 
 
 /* ::::: drop feedback ::::: */
 
 treechildren::-moz-tree-row(dropOn) {
-  background-color: lime;
+  background-color: #33FF33;
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(primary, dropOn),
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(primary, dropOn),
 treechildren::-moz-tree-cell-text(primary, dropOn) {
-  color: #000;
+  color: #000000;
 }
 
 treechildren::-moz-tree-drop-feedback {
-  background-color: lime;
+  background-color: #33FF33;
   width: 50px;
   height: 2px;
   margin-inline-start: 5px;
@@ -183,7 +183,7 @@ treechildren::-moz-tree-progressmeter {
   padding: 1px;
   border: 1px solid;
   border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
-  background-color: #000;
+  background-color: #000000;
   color: #6A6A6A;
 }
 
@@ -200,9 +200,9 @@ treecolpicker {
   -moz-box-pack: center;
   border-width: 1px 1px 2px 1px;
   border-style: solid;
-  border-color: lime;
-  background-color: #000;
-  color: lime;
+  border-color: #33FF33;
+  background-color: #000000;
+  color: #33FF33;
   padding: 0px 4px;
 }
 
@@ -330,7 +330,7 @@ treechildren::-moz-tree-cell-text(selected, editing) {
 
 .tree-input {
   -moz-appearance: none;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   margin: 0;
   margin-inline-start: -4px;
   padding: 1px;

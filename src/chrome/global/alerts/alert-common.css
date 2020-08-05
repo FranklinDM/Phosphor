@@ -121,7 +121,6 @@
 #alertSourceLabel {
   -moz-box-flex: 1;
   font-size: 83.334%;
-  color: #6A6A6A;
 }
 
 #alertSettings {
@@ -129,13 +128,14 @@
   background-color: transparent;
   min-width: 0;
   list-style-image: url("chrome://mozapps/skin/extensions/utilities.png");
+  -moz-image-region: rect(0, 16px, 16px, 0);
   margin-inline-end: 0;
   margin-bottom: 0;
   border-color: transparent;
 }
 
 #alertSettings:hover:not([disabled="true"]) {
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
+  border-color: #33FF33;
 }
 
 #alertSettings > .button-box {

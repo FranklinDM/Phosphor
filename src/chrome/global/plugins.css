@@ -7,8 +7,8 @@
    ======================================================================= */
 
 body {
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
   font: 3mm Tahoma, Arial, Helvetica, message-box, sans-serif;
 }
 
@@ -43,12 +43,12 @@ dl {
 }
 
 table {
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
   font: 3mm Tahoma, Arial, Helvetica, message-box, sans-serif;
   text-align: start;
   width: 100%;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   border-spacing: 0px;
 }
 
@@ -59,8 +59,8 @@ th, td {
 
 th {
   text-align: center;
-  background-color: lime;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 th + th,
@@ -82,7 +82,7 @@ th.desc {
 }
 
 .notice {
-  background: #808080;
+  background: #007000;
   border: 1px solid #6A6A6A;
   padding: 10px;
 }

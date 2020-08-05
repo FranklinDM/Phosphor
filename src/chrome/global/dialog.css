@@ -28,10 +28,10 @@ dialog {
 
 dialogheader {
   margin: 0px 5px 5px 5px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   padding: 5px 8px;
-  background-color: #000;
-  color: lime;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 .dialogheader-title {

@@ -41,10 +41,10 @@ panel[type="private-autocomplete-richlistbox"],
 #PopupAutoCompleteRichResult {
   -moz-appearance: none;
   border-width: 1px;
-  border-color: lime;
+  border-color: #33FF33;
   padding: 0;
-  color: lime;
-  background-color: #000;
+  color: #33FF33;
+  background-color: #000000;
 }
 
 .private-autocomplete-history-popup {
@@ -76,7 +76,7 @@ panel[type="private-autocomplete-richlistbox"],
 }
 
 treechildren.private-autocomplete-treebody::-moz-tree-row(selected) {
- background-color: lime;
+ background-color: #33FF33;
 }
 
 treechildren.private-autocomplete-treebody::-moz-tree-cell-text(selected) {
@@ -101,8 +101,8 @@ treechildren.private-autocomplete-treebody::-moz-tree-cell-text(selected) {
 }
 
 .private-autocomplete-richlistitem[selected="true"] {
-  background-color: lime;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 .ac-title-box {
@@ -176,9 +176,7 @@ treechildren.private-autocomplete-treebody::-moz-tree-cell-text(selected) {
 }
 
 html|span.ac-emphasize-text {
-  box-shadow: inset 0 0 1px 1px rgba(208,208,208,0.5);
-  background-color: rgba(208,208,208,0.3);
-  border-radius: 2px;
+  background-color: rgba(0, 150, 0, 0.5);
   text-shadow: 0 0 currentColor;
 }
 

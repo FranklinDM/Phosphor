@@ -8,11 +8,11 @@
 
 menupopup,
 panel {
-  border: 3px double lime;
+  border: 3px double #33FF33;
   padding: 0px;
   min-width: 1px;
-  background: #000;
-  color: lime;
+  background: #000000;
+  color: #33FF33;
 }
 
 menupopup {
@@ -45,11 +45,11 @@ panel[type="arrow"][side="right"] {
 
 .panel-arrowcontent {
   padding: 10px;
-  color: lime;
-  background: #000;
+  color: #33FF33;
+  background: #000000;
   background-clip: padding-box;
   margin: 4px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
 }
 
 .panel-arrow[side="top"],
@@ -91,11 +91,11 @@ panel[type="arrow"][side="right"] {
 tooltip {
   -moz-appearance: none;
   margin-top: 21px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   padding: 2px 3px;
   max-width: 40em;
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
   font: 3mm Tahoma, Arial, Helvetica, message-box, sans-serif;
 }
 
@@ -107,8 +107,8 @@ tooltip[titletip="true"] {
 
 menulist > menupopup {
   -moz-appearance: none;
-  border-color: lime;
+  border-color: #33FF33;
   padding: 0px;
   min-width: 0px;
-  background-color: #000;
+  background-color: #000000;
 }

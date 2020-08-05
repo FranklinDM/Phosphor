@@ -18,7 +18,7 @@ toolbarbutton {
   border: 1px solid transparent;
   padding: 3px;
   background-color: transparent;
-  color: lime;
+  color: #33FF33;
 }
 
 .toolbarbutton-icon[label]:not([label=""]),
@@ -39,13 +39,13 @@ toolbarbutton:-moz-focusring {
   /* -moz-appearance looks redundant here but is necessary.
       Without it, the outline won't appear. */
   -moz-appearance: none;
-  outline: 1px dotted #000;
+  outline: 1px dotted #000000;
   outline-offset: -2px;
 }
 
 toolbarbutton:hover:not([disabled="true"]) {
   background-color: rgba(0, 255, 0, 0.5);
-  color: lime;
+  color: #33FF33;
   text-decoration: underline;
 }
 
@@ -54,7 +54,7 @@ toolbarbutton[open="true"]:hover,
 toolbarbutton[open="true"] {
   border-color: transparent;
   background-color: rgba(0, 255, 0, 0.2);
-  color: lime;
+  color: #33FF33;
   text-decoration: none;
   padding-top: 4px;
   padding-bottom: 2px;
@@ -94,6 +94,11 @@ toolbarbutton:-moz-lwtheme:not([disabled="true"]) {
   width: auto;
   height: auto;
   margin-top: 1px;
+}
+
+/* XXX: For some reason, the rule at dropmarker.css doesn't apply and has to be manually defined here */
+toolbarbutton[type="menu"][open="true"]:not([disabled="true"]) .toolbarbutton-menu-dropmarker {
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-inverted.gif");
 }
 
 /* ::::: toolbarbutton menu-button ::::: */
@@ -181,7 +186,7 @@ toolbarbutton[type="menu-button"][open="true"]:not([checked="true"]):not([disabl
 toolbarbutton[type="menu-button"]:hover:not([checked="true"]):not(:active):not([disabled="true"]) .toolbarbutton-menubutton-button,
 toolbarbutton[type="menu-button"]:hover:not([disabled="true"]) .toolbarbutton-menubutton-dropmarker {
   border-color: #009600;
-  color: lime;
+  color: #33FF33;
 }
 
 toolbarbutton[type="menu-button"][open="true"]:not([disabled="true"]) .toolbarbutton-menubutton-dropmarker {

@@ -13,8 +13,8 @@ spinbuttons {
   min-width: 13px;
   min-height: 11px;
   margin: 0 !important;
-  border: 1px solid lime;
-  background-color: #000;
+  border: 1px solid #33FF33;
+  background-color: #000000;
 }
 
 .spinbuttons-button > .button-box {

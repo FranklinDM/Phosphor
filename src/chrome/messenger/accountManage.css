@@ -47,15 +47,6 @@ treechildren::-moz-tree-cell-text(isDefaultServer-true) {
   padding-inline-start: 3px;
 }
 
-#backgroundBox {
-  background-color: #FFFFFF;
-  opacity: 0.5;
-}
-
 #smtpServerInfoBox textbox {
   background-color: transparent;
-}
-
-#archiveTree > treechildren {
-  background-color: -moz-Field;
 }

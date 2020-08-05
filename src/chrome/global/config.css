@@ -7,13 +7,13 @@
 
 
 #warningScreen {
-  background-color: #000;
+  background-color: #000000;
 }
 
 #warningBox {
-  background-color: #000;
-  color: lime;
-  border: 1px solid lime;
+  background-color: #000000;
+  color: #33FF33;
+  border: 3px double #33FF33;
   padding: 3em;
   padding-inline-start: 30px;
   margin-left: 1em;
@@ -27,7 +27,7 @@
 #warningTitle {
   margin: 0 0 .6em 0;
   font-size: 160%;
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
 }
 
 #warningText {

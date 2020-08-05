@@ -120,7 +120,7 @@ wizardpage {
 
 /* Update History Window */
 update {
-  border-bottom: 1px dotted lime;
+  border-bottom: 1px dotted #33FF33;
 }
 
 .update-name {

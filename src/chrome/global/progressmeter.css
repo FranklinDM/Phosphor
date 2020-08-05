@@ -13,7 +13,7 @@
 progressmeter {
   -moz-appearance: none;
   margin: 2px 4px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   min-width: 128px;
   min-height: 13px;
 }
@@ -21,7 +21,7 @@ progressmeter {
 .progress-bar {
   -moz-appearance: none;
   min-width: 0px;
-  background-color: lime;
+  background-color: #33FF33;
 }
 
 progressmeter[mode="undetermined"] {
@@ -38,9 +38,9 @@ progressmeter[mode="undetermined"] {
 .progressmeter-statusbar {
   margin: 0;
   border: 0px;
-  -moz-border-top-colors: #ECECEC #000;
-  -moz-border-right-colors: #6A6A6A #000;
-  -moz-border-bottom-colors: #6A6A6A #000;
-  -moz-border-left-colors: #ECECEC #000;
+  -moz-border-top-colors: #ECECEC #000000;
+  -moz-border-right-colors: #6A6A6A #000000;
+  -moz-border-bottom-colors: #6A6A6A #000000;
+  -moz-border-left-colors: #ECECEC #000000;
   min-width: 96px;
 }

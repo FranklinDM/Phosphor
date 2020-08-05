@@ -69,7 +69,7 @@ menucaption > .menu-iconic-text {
 
 .menu-description {
   font-style: italic;
-  color: #6A6A6A;
+  color: #FFFFFF;
   margin-inline-start: 1ex !important;
 }
 
@@ -116,7 +116,7 @@ menubar > menu {
 }
 
 menubar > menu[_moz-menuactive="true"]:not([disabled="true"]) {
-  color: #000;
+  color: #000000;
 }
 
 menubar > menu[_moz-menuactive="true"][open="true"] {
@@ -133,8 +133,8 @@ menubar > menu:-moz-lwtheme:not([disabled="true"]) {
 }
 
 menubar > menu:-moz-lwtheme[_moz-menuactive="true"]:not([disabled="true"]) {
-  background-color: lime;
-  color: #000 !important;
+  background-color: #33FF33;
+  color: #000000 !important;
   text-shadow: none;
 }
 
@@ -160,8 +160,8 @@ menupopup > menucaption {
 menu[_moz-menuactive="true"],
 menuitem[_moz-menuactive="true"],
 .splitmenu-menuitem[_moz-menuactive="true"] {
-  background-color: lime;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 /* ::::: menu/menuitems in menulist popups ::::: */
@@ -175,13 +175,13 @@ menulist > menupopup > menu {
   padding-inline-end: 5px;
   max-width: none;
   font: 3mm Tahoma, Arial, Helvetica, message-box, sans-serif;
-  color: lime;
+  color: #33FF33;
 }
 
 menulist > menupopup > menuitem[_moz-menuactive="true"],
 menulist > menupopup > menu[_moz-menuactive="true"] {
-  background-color: lime;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 menulist > menupopup > menuitem > .menu-iconic-left,
@@ -247,12 +247,12 @@ menuitem[_moz-menuactive="true"][checked="true"][type="radio"]:not([disabled="tr
 menuseparator {
   -moz-appearance: none;
   margin: 2px 3px;
-  border-top: 1px solid lime;
+  border-top: 1px solid #33FF33;
 }
 
 menulist > menupopup > menuseparator {
   padding: 6px 0 5px 0;
-  border-top: 1px solid lime;
+  border-top: 1px solid #33FF33;
   border-bottom: none;
 }
 

@@ -4,10 +4,6 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-#blankResultsPaneMessageBox {
-  background-color: -moz-field;
-}
-
 #blankResultsPaneMessage {
   font-style: italic;
 }

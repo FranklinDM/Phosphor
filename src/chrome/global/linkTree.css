@@ -19,7 +19,7 @@ treeitem[selected="true"] > treerow
 treecell:hover
   {
     text-decoration       : underline !important;
-    color                 : #000080 !important;
+    color                 : #000000080 !important;
     cursor                : pointer;
   }
   

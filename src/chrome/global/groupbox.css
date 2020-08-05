@@ -12,7 +12,7 @@
 
 groupbox {
   -moz-appearance: none;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   margin: 3px;
   padding: 3px 3px 6px;
 }
@@ -23,7 +23,7 @@ groupbox {
 
 caption {
   margin: 0 6px;
-  background-color: #000;
+  background-color: #000000;
 }
 
 tabpanels caption {

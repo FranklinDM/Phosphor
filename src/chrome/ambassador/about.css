@@ -10,8 +10,8 @@ dialog {
 }
 
 .box-padded {
-    background-color: Window;
-    color: WindowText;
+    background-color: #000000;
+    color: #33FF33;
 }
 
 .large-text {
@@ -19,14 +19,14 @@ dialog {
 }
 
 #logo {
-    background: url(chrome://ambassador/skin/images/icon32.png);
+    background: url("chrome://ambassador/skin/images/icon32.png");
     background-repeat: no-repeat;
     width:  32px;
     height: 32px;
 }
 
 #version {
-    color: GrayText;
+    color: #FFFFFF;
 }
 
 .contributors-label {

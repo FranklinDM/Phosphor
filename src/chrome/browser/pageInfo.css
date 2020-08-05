@@ -18,24 +18,25 @@
   margin: 0 1px;
   min-width: 4.5em;
   border: 1px solid transparent;
+  border-bottom-style: none;
 }
 
 #viewGroup > radio:hover {
   -moz-appearance: none;
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
+  background-color: rgba(0, 255, 0, 0.2);
 }
 
 #viewGroup > radio[selected="true"] {
   -moz-appearance: none;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
+  background-color: rgba(0, 255, 0, 0.5);
+  border-color: #33FF33;
 }
 
 #topBar {
-  border-bottom: 2px groove ThreeDFace;
+  border-bottom: 1px solid #33FF33;
   padding-inline-start: 10px;
-  background-color: #000;
-  color: #000;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 #generalTab {
@@ -85,8 +86,9 @@ textbox.header {
 
 .iframe {
   margin: .5em;
-  background: white;
+  background: #000000;
   overflow: auto;
+  border-color: #33FF33;
 }
 
 .fixedsize {
@@ -167,17 +169,16 @@ treechildren::-moz-tree-cell-text(broken) {
   padding-inline-start: 7px;
   padding-inline-end: 7px;
   min-height: 25px;
-  border-bottom: 1px dotted #C0C0C0;
+  border-bottom: 1px dotted #33FF33;
 }
 
 #feedListbox richlistitem[selected="true"] {
-  background-color: #000;
-  color: #000;
+  background-color: rgba(0, 255, 0, 0.5);
+  color: #33FF33;
 }
 
 #feedListbox {
-  border: 1px solid;
-  border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
+  border: 1px solid #33FF33;
 }
 
 .feedTitle { 
@@ -188,9 +189,8 @@ treechildren::-moz-tree-cell-text(broken) {
 #permList {
   margin-top: .5em;
   overflow: auto;
-  border: 1px solid;
-  border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
-  background-color: #fff;
+  border: 1px solid #33FF33;
+  background-color: #000000;
 }
 
 .permission {
@@ -199,7 +199,7 @@ treechildren::-moz-tree-cell-text(broken) {
   padding-inline-start: 7px;
   padding-inline-end: 7px;
   min-height: 25px;
-  border-bottom: 1px dotted #C0C0C0;
+  border-bottom: 1px dotted #33FF33;
 }
 
 .permissionLabel {
@@ -207,7 +207,7 @@ treechildren::-moz-tree-cell-text(broken) {
 }
 
 .permission:hover {
-  background-color: #000;
+  background-color: rgba(0, 255, 0, 0.2);
 }
 
 /* Security Tab */

@@ -18,15 +18,16 @@
 
 #alertBox {
   border: 1px solid;
-  border-color: #6A6A6A;
-  background-color: #000;
-  color: #000;
+  border-color: #33FF33;
+  background-color: #000000;
+  color: #33FF33;
   box-shadow: 0 2px 10px rgba(0,0,0,0.59);
 }
 
 .alertCloseButton {
   -moz-appearance: none;
   padding: 4px 2px;
+  background-color: transparent;
   border: none !important;
 }
 

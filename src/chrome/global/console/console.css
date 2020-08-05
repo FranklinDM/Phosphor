@@ -9,14 +9,14 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 .console-box {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
 }
 
 /* ::::: console rows ::::: */
 
 .console-row {
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
   padding: 4px 0px;
 }
 
@@ -50,7 +50,7 @@
   padding-bottom: 3px;
   padding-inline-start: 3px;
   padding-inline-end: 0px;
-  color: #0000f9;
+  color: #0000000f9;
   font-size: larger;
 }
 
@@ -77,8 +77,8 @@
 /* ..... selected state ..... */
 
 .console-row[selected="true"] {
-  background: lime;
-  color: #000;
+  background: #33FF33;
+  color: #000000;
 }
 
 .console-row-code[selected="true"],

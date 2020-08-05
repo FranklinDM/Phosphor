@@ -10,8 +10,8 @@
 }
 
 #clientBox {
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 @media (-moz-windows-compositor) {

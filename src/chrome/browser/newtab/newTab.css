@@ -11,8 +11,8 @@
 /* SCROLLBOX */
 #newtab-vertical-margin,
 #newtab-scrollbox:not([page-disabled]) {
-  color: #000;
-  background-color: #000;
+  color: #000000;
+  background-color: #000000;
 }
 
 /* UNDO */
@@ -20,8 +20,8 @@
   padding: 4px 3px;
   border: 1px solid;
   border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
-  background-color: #000;
-  color: #000;
+  background-color: #000000;
+  color: #000000;
 }
 
 #newtab-undo-label {
@@ -75,7 +75,7 @@
   height: 16px;
   padding: 0;
   border: none;
-  background: -216px 0 transparent url(chrome://browser/skin/newtab/controls.png);
+  background: -216px 0 transparent url("chrome://browser/skin/newtab/controls.png");
 }
 
 #newtab-toggle[page-disabled] {
@@ -94,9 +94,14 @@
 /* CELLS */
 .newtab-cell {
   margin-inline-end: 20px;
-  background-color: #404060;
-  border: 1px solid lime;
+  background-color: #000000;
+  border: 1px solid #33FF33;
   transition: none;
+}
+
+.newtab-cell .newtab-title {
+  background-color: #000000;
+  color: #33FF33;
 }
 
 .newtab-cell:empty {
@@ -108,11 +113,11 @@
 }
 
 .newtab-cell:hover:not(:empty):not([dragged]) {
-  border-color: #AAAAFF;
+  border-color: #00FF00;
 }
 .newtab-cell:hover:not(:empty):not([dragged]) .newtab-title {
-  background-color: #AAAAFF;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 /* SITES */
@@ -138,8 +143,8 @@
 /* TITLES */
 .newtab-title {
   padding: 0 8px 1px;
-  background-color: lime;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
   line-height: 24px;
 }
 
@@ -148,7 +153,7 @@
 }
 
 .newtab-site[pinned] .newtab-title::before {
-  background-image: url(chrome://browser/skin/newtab/pinned.png);
+  background-image: url("chrome://browser/skin/newtab/pinned.png");
   content: "";
   left: 2px;
   top: 2px;
@@ -168,7 +173,7 @@
   height: 24px;
   padding: 1px 2px 3px;
   border: none;
-  background: transparent url(chrome://browser/skin/newtab/controls.png);
+  background: transparent url("chrome://browser/skin/newtab/controls.png");
   transition: none;
   top: 4px;
 }
@@ -221,7 +226,7 @@
 .newtab-undo-button {
   -moz-appearance: none;
   color: -moz-nativehyperlinktext;
-  color: rgb(0,102,204);
+  color: rgb(0, 102, 204);
   cursor: pointer;
   padding: 0;
   margin: 0 4px;
@@ -251,28 +256,31 @@
 #searchText {
   box-shadow: none;
   border-radius: 0;
-  border: 1px solid;
-  border-color: #6A6A6A #ECECEC #ECECEC #6A6A6A;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
 }
 #searchSubmit {
   margin-inline-start: 5px;
   box-shadow: none !important;
   border-radius: 0;
-  border: 1px solid;
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
-  background-color: #000 !important;
+  border: 1px solid #33FF33;
+  background-color: #000000 !important;
+  color: #33FF33;
   transition: none;
 }
 #searchSubmit:hover {
   cursor: default;
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC !important;
-  color: #6A75B6 !important;
+  border-color: #33FF33 !important;
+  color: #00FF00 !important;
 }
 #searchSubmit:hover:active {
-  border-color: #6A6A6A !important;
+  border-color: #000000 !important;
+  background-color: #33FF33 !important;
+  color: #000000 !important;
 }
 #searchText:focus + #searchSubmit {
-  border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC !important;
+  border-color: #33FF33 !important;
 }
 #searchLogoContainer > * {
   transform: scale(.75);

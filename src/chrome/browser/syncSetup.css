@@ -54,7 +54,7 @@ wizardpage {
 }
 
 .confirm {
-  border: 1px solid black;
+  border: 1px solid #000000;
   padding: 1em;
   border-radius: 5px;
 }

@@ -12,19 +12,19 @@
  */
 
 html {
-  background: #000;
+  background: #000000;
 }
 
 body {
   margin: 0;
   padding: 0 1em;
-  color: lime;
+  color: #33FF33;
   font: 3mm Tahoma, Arial, Helvetica, message-box, sans-serif;
 }
 
 h1 {
   margin: 0 0 .6em 0;
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
   font-size: 160%;
 }
 
@@ -47,10 +47,10 @@ ul {
   min-width: 13em;
   max-width: 52em;
   margin: 4em auto;
-  border: 1px solid lime;
+  border: 3px double #33FF33;
   padding: 3em;
   padding-inline-start: 30px;
-  background: url("chrome://global/skin/icons/warning-large.png") left 0 no-repeat #000;
+  background: url("chrome://global/skin/icons/warning-large.png") left 0 no-repeat #000000;
   background-origin: content-box;
 }
 
@@ -72,7 +72,7 @@ ul {
 
 #errorShortDesc > p {
   overflow: auto;
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
   padding-bottom: 1em;
   font-size: 130%;
   white-space: pre-wrap;
@@ -87,8 +87,23 @@ ul {
 }
 
 #errorTryAgain {
+  -moz-appearance: none;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
   margin-top: 2em;
   margin-inline-start: 80px;
+}
+
+#errorTryAgain:hover:not([disabled="true"]) {
+  text-decoration: underline;
+}
+
+#errorTryAgain:hover:active:not([disabled="true"]) {
+  border-color: #00FF00;
+  background-color: #33FF33;
+  color: #000000;
+  text-decoration: none;
 }
 
 #brand {

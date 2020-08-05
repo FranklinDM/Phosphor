@@ -15,7 +15,7 @@ scrollbar {
   -moz-appearance: none;
   -moz-binding: url("chrome://global/content/bindings/scrollbar.xml#scrollbar");
   cursor: default;
-  background-color: #000;
+  background-color: #009600;
 }
 
 @media all and (-moz-overlay-scrollbars) {
@@ -38,8 +38,12 @@ scrollbar[orient="vertical"] {
 
 thumb,
 scrollbarbutton {
-  border: 1px solid lime;
-  background: #000 center no-repeat;
+  border: 2px solid;
+  -moz-border-top-colors: #000000 #33FF33;
+  -moz-border-right-colors: #000000 #33FF33;
+  -moz-border-bottom-colors: #000000 #33FF33;
+  -moz-border-left-colors: #000000 #33FF33;
+  background: #000000 center no-repeat;
 }
 
 /* ::::: slider - a thumb is inside  ::::: */
@@ -86,7 +90,7 @@ thumb[orient="horizontal"][disabled="true"] {
 /* ::::: scrollbar button ::::: */
 
 scrollbarbutton {
-  background: #000 no-repeat 50% 50%;
+  background: #000000 no-repeat 50% 50%;
   min-width: 16px;
   min-height: 16px;
 }
@@ -104,7 +108,7 @@ scrollcorner {
   -moz-binding: url(chrome://global/content/bindings/scrollbar.xml#scrollbar-base);
   width: 16px;
   cursor: default;
-  background-color: #000;
+  background-color: #000000;
 }
 
 /* ..... increment .... */
@@ -191,7 +195,7 @@ scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"
   html|div scrollbarbutton {
     border: 1px solid;
     border-color: #ECECEC #6A6A6A #6A6A6A #ECECEC;
-    background-color: #000;
+    background-color: #000000;
   }
 
   /* ::::: thumb ::::: */
@@ -211,7 +215,7 @@ scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"
   /* ::::: scrollbar button ::::: */
 
   html|div scrollbarbutton {
-    background: #000 no-repeat 50% 50%;
+    background: #000000 no-repeat 50% 50%;
     min-width: 16px;
     min-height: 16px;
   }

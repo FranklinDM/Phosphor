@@ -21,12 +21,12 @@ datepicker, timepicker {
   -moz-appearance: none;
   cursor: text;
   margin-inline-end: 2px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   padding: 2px 0 3px 0;
   padding-inline-start: 4px;
   padding-inline-end: 2px;
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 .datetimepicker-input-subbox {
@@ -47,21 +47,21 @@ html|*.datetimepicker-input {
 
 .datetimepicker-input-box[readonly="true"] {
   border-style: dotted;
-  color: lime;
+  color: #33FF33;
 }
 
 .datetimepicker-input-box[disabled="true"] {
   cursor: default;
   border-color: #6A6A6A;
-  background-color: #000;
+  background-color: #000000;
   color: #6A6A6A;
 } 
 
 .datepicker-mainbox {
   margin: 2px 4px;
-  border: 1px solid lime;
-  background-color: #000;
-  color: #lime;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: ##33FF33;
 }
 
 .datepicker-popupgrid > .datepicker-mainbox {
@@ -79,8 +79,8 @@ html|*.datetimepicker-input {
 }
 
 .datepicker-gridlabel[selected="true"] {
-  background-color: lime;
-  color: #000;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 .datepicker-button {

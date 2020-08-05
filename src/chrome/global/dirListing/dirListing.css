@@ -3,33 +3,33 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 :root {
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
   font: message-box;
   padding-left: 2em;
   padding-right: 2em;
 }
 
 body {
-  border: 3px double lime;
+  border: 3px double #33FF33;
   padding: 3em;
   min-width: 30em;
   max-width: 65em;
   margin: 4em auto;
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 h1 {
   font-size: 160%;
   margin: 0 0 .6em;
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
   font-weight: normal;
 }
 
 a {
   text-decoration: none;
-  color: lime;
+  color: #33FF33;
 }
 
 a:hover {
@@ -78,7 +78,7 @@ th:hover > a {
 }
 
 body > table > tbody > tr:hover {
-  outline: 1px solid lime;
+  outline: 1px solid #33FF33;
   -moz-outline-radius: .3em;
 }
 

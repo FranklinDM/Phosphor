@@ -4,6 +4,7 @@
 
 html {
   background-color: var(--in-content-page-background);
+  color: var(--in-content-text-color);
 }
 
 body {
@@ -66,7 +67,6 @@ th.column {
 td {
   text-align: start;
   border-color: var(--in-content-table-border-dark-color);
-  background-color: #ebebeb;
 }
 
 .prefs-table {

@@ -17,6 +17,10 @@
   color: GrayText;
 }
 
+attachmentlist {
+  -moz-appearance: none;
+}
+
 attachmentlist[orient="horizontal"] > attachmentitem {
   pointer-events: none;
 }
@@ -36,13 +40,13 @@ attachmentlist:focus > attachmentitem[current="true"] .attachmentcell-nameselect
 }
 
 attachmentitem[selected="true"] .attachmentcell-nameselection {
-  background-color: -moz-CellHighlight;
-  color: -moz-CellHighlightText;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 attachmentlist:focus > attachmentitem[selected="true"] .attachmentcell-nameselection {
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: #33FF33;
+  color: #000000;
 }
 
 attachmentlist:focus > attachmentitem[selected="true"] .attachmentcell-icon {

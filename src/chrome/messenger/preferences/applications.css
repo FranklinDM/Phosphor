@@ -59,7 +59,7 @@ menuitem[appHandlerIcon="plugin"] {
 
 .shortDetails {
   text-align: right;
-  color: GrayText;
+  color: #FFFFFF;
 }
 
 richlistbox:focus .shortDetails.selected {

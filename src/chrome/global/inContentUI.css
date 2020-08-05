@@ -14,8 +14,8 @@
   -moz-appearance: none;
   padding: 18px;
   background-repeat: repeat;
-  color: lime;
-  background-color: #000;
+  color: #33FF33;
+  background-color: #000000;
 }
 
 html|html {
@@ -26,9 +26,9 @@ html|html {
 *|*.main-content {
   /* Needed to allow the radius to clip the inner content, see bug 595656 */
   overflow: hidden;
-  border: 1px solid lime;
-  background-color: #000;
-  color: lime;
+  border: 1px solid #33FF33;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 colorpicker[type="button"] {

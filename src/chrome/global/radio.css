@@ -46,7 +46,7 @@ radio[focused="true"] > .radio-label-box {
 /* ..... disabled state ..... */
 
 radio[disabled="true"] > .radio-check-box1 {
-  background-color: #000;
+  background-color: #000000;
   border-color: #6A6A6A;
 }
 
@@ -63,15 +63,15 @@ radio[disabled="true"] {
 .radio-check-box1 {
   -moz-appearance: none;
   margin: 1px 0px;
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  background-color: #000;
+  background-color: #000000;
 }
 
 .radio-check-box2 {
-  border: 1px solid lime;
+  border: 1px solid #33FF33;
   border-radius: 50%;
   padding: 2px;
   width: 4px;

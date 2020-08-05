@@ -13,7 +13,7 @@
 }
 
 .browserStack[responsivemode] {
-  box-shadow: 0 0 7px black;
+  box-shadow: 0 0 7px #000000;
 }
 
 .devtools-responsiveui-toolbar {

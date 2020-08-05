@@ -36,7 +36,7 @@ a.ambassador-link {
 
 #usr-descnodes,
 #ch-topicnodes {
-    color: black;
+    color: #000000;
 }
 
 .progress-fg {
@@ -97,17 +97,17 @@ a.ambassador-link {
 }
 
 .ambassador-highlight[name="Slate"] {
-    color: black;
+    color: #000000;
     background: #b8c4e0;
 }
 
 .ambassador-highlight[name="Plum"] {
-    color: black;
+    color: #000000;
     background: #ddb8d0;
 }
 
 .ambassador-highlight[name="Brown"] {
-    color: black;
+    color: #000000;
     background: #ffbf77;
 }
 
@@ -118,7 +118,7 @@ a.ambassador-link {
 
 .msg-user a.ambassador-link,
 .msg-user {                                 /* msg-user = nickname portion of */
-    color: black !important;                /* a message (channel and query   */
+    color: #000000 !important;                /* a message (channel and query   */
     font-weight: bold;                      /* views)                         */
 }                     
  
@@ -156,11 +156,11 @@ a.ambassador-link {
 }
 
 .msg[msg-type="USAGE"] .msg-data {
-    color: black;
+    color: #000000;
 }
 
 .msg[msg-type="ACTION"] .msg-data {
-    color: black;
+    color: #000000;
     font-style: italic;
 }
 

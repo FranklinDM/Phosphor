@@ -3,21 +3,21 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 html {
-  background: #000;
+  background: #000000;
   padding: 0 1em;
   font: message-box;
 }
 
 body {
-  color: lime;
+  color: #33FF33;
   position: relative;
   min-width: 330px;
   max-width: 50em;
   margin: 4em auto;
-  border: 3px double lime;
+  border: 3px double #33FF33;
   padding: 3em;
   padding-inline-start: 30px;
-  background: #000;
+  background: #000000;
 }
 
 .aboutPageWideContainer {

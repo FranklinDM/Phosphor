@@ -14,7 +14,7 @@
 
 #messagepanebox {
   text-shadow: none;
-  background-color: #000;
+  background-color: #000000;
 }
 
 #mail-toolbox:-moz-lwtheme {
@@ -24,5 +24,5 @@
 /* ::::: message header borders ::::: */
 
 .main-header-area {
-  border-top: 1px solid lime;
+  border-top: 1px solid #33FF33;
 }

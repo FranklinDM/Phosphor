@@ -48,15 +48,16 @@ radio[pane] {
   padding: 1px 3px 1px 3px;
   min-width: 4.5em;
   border: 1px solid transparent;
-  color: lime;
+  border-bottom-style: none;
+  color: #33FF33;
 }
 
 .paneSelector {
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #33FF33;
   margin: 0px;
   padding-inline-start: 10px;
-  background-color: #000;
-  color: lime;
+  background-color: #000000;
+  color: #33FF33;
 }
 
 .paneButtonIcon {
@@ -65,11 +66,10 @@ radio[pane] {
 }
 
 radio[pane]:hover {
-  -moz-appearance: none;
-  border-color: lime;
+  background-color: rgba(0, 255, 0, 0.2);
 }
 
 radio[pane][selected="true"] {
-  -moz-appearance: none;
   background-color: rgba(0, 255, 0, 0.5);
+  border-color: #33FF33;
 }

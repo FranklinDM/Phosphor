@@ -14,7 +14,7 @@
         <em:homepageURL>https://franklindm.github.io/</em:homepageURL>
 
         <!-- Allow lightweight themes / personas to apply to this theme, using 'skinnable' -->
-        <em:skinnable>true</em:skinnable>
+        <em:skinnable>false</em:skinnable>
 
         <!-- internalName must match the 'skinname' part of the relevant chrome.manifest directives in order for those mappings to be associated with this skin. -->
         <em:internalName>phosphor</em:internalName>

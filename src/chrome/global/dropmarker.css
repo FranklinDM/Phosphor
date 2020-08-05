@@ -8,9 +8,8 @@ dropmarker {
   height: 16px;
   -moz-box-align: center;
   -moz-box-pack: center;
-  background-color: lime;
   padding: 1px;
-  list-style-image: url("chrome://global/skin/arrow/arrow-dn-inverted.gif");
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn.gif");
   -moz-image-region: auto;
 }
 
@@ -20,11 +19,12 @@ dropmarker {
   dropmarker:hover:active:not([disabled="true"])
  */
 *[open="true"]:not([disabled="true"]) dropmarker {
-  border-color: #009600;
+  background-color: #33FF33;
   padding-top: 2px;
   padding-bottom: 0px;
   padding-inline-start: 2px;
   padding-inline-end: 0px;
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-inverted.gif");
 }
 
 dropmarker[disabled="true"] {

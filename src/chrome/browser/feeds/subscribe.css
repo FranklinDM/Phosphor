@@ -3,23 +3,22 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 html {
-  background: #000;
+  background: #000000;
   font: 3mm tahoma,arial,helvetica,sans-serif;
 }
 
 #feedBody {
-  border: 1px solid #6A6A6A;
+  border: 1px solid #33FF33;
   padding: 3em;
   padding-inline-start: 30px;
   margin: 2em auto;
-  background: #fff;
+  background: #000000;
 }
 
 #feedHeaderContainer {
-  border: 1px solid #6A6A6A;
-  border-radius: 10px;
+  border: 1px solid #33FF33;
   margin: -4em auto 0 auto;
-  background-color: InfoBackground;
+  background-color: #000000;
 }
 
 #feedHeader {  
@@ -29,7 +28,7 @@ html {
   margin-inline-end: 1em;
   padding-inline-start: 2.9em;
   font-size: 110%;
-  color: InfoText;
+  color: #33FF33;
 }
 
 #feedIntroText {
@@ -39,7 +38,7 @@ html {
 .feedBackground,
 .videoPodcastBackground,
 .audioPodcastBackground {
-  background: url("chrome://browser/skin/feeds/feedIcon.png") 0% 10% no-repeat InfoBackground;
+  background: url("chrome://browser/skin/feeds/feedIcon.png") 0% 10% no-repeat #000000;
 }
 
 #feedHeader[dir="rtl"] {
@@ -74,21 +73,26 @@ img {
 body {
   margin: 0;
   padding: 0 3em;
-  color: #000;
+  color: #33FF33;
   font: message-box;
 }
 
 h1 {
   font-size: 160%;
-  border-bottom: 2px solid ThreeDLightShadow;
+  border-bottom: 2px solid #33FF33;
   margin: 0 0 .2em 0;
 }
 
 h2 {
-  color: ThreeDDarkShadow;
+  color: #009600;
   font-size: 110%;
   font-weight: normal;
   margin: 0 0 .6em 0;
+}
+
+hr {
+  border-style: solid;
+  color: #33FF33;
 }
 
 #feedTitleLink {
@@ -97,6 +101,10 @@ h2 {
   margin-inline-end: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+*|*:link {
+  color: #FFB000;
 }
 
 a[href] img {
@@ -145,10 +153,10 @@ a[href] img {
 }
 
 .enclosures {
-  border: 1px solid #6A6A6A;
+  border: 1px solid #33FF33;
   padding: 1em;
   margin: 1em auto;
-  background: #000;
+  background: #000000;
 }
 
 .enclosure {
