@@ -309,17 +309,17 @@ treechildren::-moz-tree-image(subjectCol, imapdeleted) {
 /* ..... tabs ..... */
 
 #tabpanelcontainer {
-  -moz-appearance: none;
+  appearance: none;
 }
 
 /* ..... Draw in titlebar ..... */
 
 #messengerWindow[sizemode="normal"] > #titlebar {
-  -moz-appearance: -moz-window-titlebar;
+  appearance: -moz-window-titlebar;
 }
 
 #messengerWindow[sizemode="maximized"] > #titlebar {
-  -moz-appearance: -moz-window-titlebar-maximized;
+  appearance: -moz-window-titlebar-maximized;
 }
 
 @media (-moz-windows-classic) {
@@ -365,16 +365,16 @@ treechildren::-moz-tree-image(subjectCol, imapdeleted) {
 }
 
 #titlebar-buttonbox {
-  -moz-appearance: -moz-window-button-box;
+  appearance: -moz-window-button-box;
   position: relative;
 }
 
 #messengerWindow[sizemode="maximized"] #titlebar-buttonbox {
-  -moz-appearance: -moz-window-button-box-maximized;
+  appearance: -moz-window-button-box-maximized;
 }
 
 #titlebar-min {
-  -moz-appearance: -moz-window-button-minimize;
+  appearance: -moz-window-button-minimize;
 }
 
 @media not all and (-moz-windows-classic) {
@@ -384,15 +384,15 @@ treechildren::-moz-tree-image(subjectCol, imapdeleted) {
 }
 
 #titlebar-max {
-  -moz-appearance: -moz-window-button-maximize;
+  appearance: -moz-window-button-maximize;
 }
 
 #messengerWindow[sizemode="maximized"] #titlebar-max {
-  -moz-appearance: -moz-window-button-restore;
+  appearance: -moz-window-button-restore;
 }
 
 #titlebar-close {
-  -moz-appearance: -moz-window-button-close;
+  appearance: -moz-window-button-close;
 }
 
 #messengerWindow[tabsintitlebar] .titlebar-placeholder[type="caption-buttons"] {
@@ -474,11 +474,11 @@ treechildren::-moz-tree-image(subjectCol, imapdeleted) {
 }
 
 #viewPickerPopup > menuitem[type="radio"] {
-  -moz-appearance: none;
+  appearance: none;
 }
 
 #viewPickerPopup > menu > .menu-text {
-  -moz-appearance: none;
+  appearance: none;
   margin-inline-start: 0 !important;
   padding-inline-start: 0 !important;
 }

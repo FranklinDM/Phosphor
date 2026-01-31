@@ -216,7 +216,7 @@ body:not(.loaded) .toolbar:-moz-locale-dir(rtl) {
   padding: 0;
   list-style: none;
   background-color: #000000;
-  -moz-user-select: none;
+  user-select: none;
   border-right: 1px solid #33FF33;
   z-index: 1;
 }

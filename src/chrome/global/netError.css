@@ -87,7 +87,7 @@ ul {
 }
 
 #errorTryAgain {
-  -moz-appearance: none;
+  appearance: none;
   border: 1px solid #33FF33;
   background-color: #000000;
   color: #33FF33;

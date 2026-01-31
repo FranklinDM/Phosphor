@@ -31,7 +31,7 @@ html|html,
 xul|page,
 xul|window {
   font: 3mm Tahoma, Arial, Helvetica, message-box, sans-serif;
-  -moz-appearance: none;
+  appearance: none;
   background-color: var(--in-content-page-background);
   color: var(--in-content-page-color);
 }
@@ -81,7 +81,7 @@ xul|prefpane > xul|*.content-box {
 /* groupboxes */
 
 xul|groupbox {
-  -moz-appearance: none;
+  appearance: none;
   border: none;
   margin: 15px 0 0;
   padding-inline-start: 0;
@@ -99,7 +99,7 @@ xul|groupbox xul|description {
 /* tabpanels and tabs */
 
 xul|tabpanels {
-  -moz-appearance: none;
+  appearance: none;
   font-size: 1.25rem;
   line-height: 22px;
   border: none;
@@ -121,7 +121,7 @@ xul|*.tabs-right {
 }
 
 xul|tab {
-  -moz-appearance: none;
+  appearance: none;
   margin-top: 0;
   padding: 4px 20px;
   min-height: 44px;
@@ -157,7 +157,7 @@ xul|menulist,
 html|input[type="text"],
 html|textarea,
 xul|textbox {
-  -moz-appearance: none;
+  appearance: none;
 }
 
 *|button {
@@ -212,7 +212,7 @@ html|input[type="checkbox"] + html|label {
 }
 
 html|input[type="checkbox"] + html|label:before {
-  -moz-appearance: none;
+  appearance: none;
   width: 13px;
   height: 13px;
   border: 1px solid #33FF33;
@@ -248,7 +248,7 @@ xul|radio {
 /* Category List */
 
 *|*#categories {
-  -moz-appearance: none;
+  appearance: none;
   padding-top: 40px;
   padding-inline-start: 1.2em;
   margin: 0;
@@ -256,7 +256,7 @@ xul|radio {
 }
 
 *|*.category {
-  -moz-appearance: none;
+  appearance: none;
   border: 1px solid transparent;
   background-color: #000000;
   color: #33FF33;
@@ -286,7 +286,7 @@ xul|radio {
   padding-bottom: 2px;
   padding-inline-start: 9px;
   margin: 0;
-  -moz-user-select: none;
+  user-select: none;
 }
 
 *|*.category-icon {
@@ -309,7 +309,7 @@ xul|radio {
   font-weight: normal;
   line-height: 40px;
   margin: 0;
-  -moz-user-select: none;
+  user-select: none;
 }
 
 /* Use a 2px border so that selected row highlight is still visible behind

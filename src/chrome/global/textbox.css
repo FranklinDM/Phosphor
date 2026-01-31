@@ -12,7 +12,7 @@
 /* ::::: textbox ::::: */
 
 textbox {
-  -moz-appearance: none;
+  appearance: none;
   cursor: text;
   margin: 2px 4px;
   border: 1px solid #33FF33;
@@ -54,7 +54,7 @@ textbox[disabled="true"] {
 /* ::::: plain textbox ::::: */
 
 textbox.plain {
-  -moz-appearance: none !important;
+  appearance: none !important;
   background-color: transparent;
   padding: 0px !important;
   margin: 0px !important;
