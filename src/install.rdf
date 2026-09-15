@@ -3,7 +3,7 @@
     <Description about="urn:mozilla:install-manifest">
         <!-- General -->
         <em:id>phosphor@franklindm</em:id>
-        <em:version>dev-build</em:version>
+        <em:version>v1.0.0a7</em:version>
         <em:type>4</em:type>
         <em:internalName>phosphor</em:internalName>
         <em:skinnable>false</em:skinnable>
@@ -22,7 +22,7 @@
             <Description>
                 <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
                 <em:minVersion>33.0.0a1</em:minVersion>
-                <em:maxVersion>34.*</em:maxVersion>
+                <em:maxVersion>35.*</em:maxVersion>
             </Description>
         </em:targetApplication>
         <em:targetApplication>
